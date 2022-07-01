@@ -1,4 +1,6 @@
-# Summary
+# QRadar app framework version 2 documentation
+
+Use this documentation for building apps built using Red Hat Universal Base Image (UBI) 8, Python 3, and App Framework version 2. To maintain apps built using Cent OS, Python 2, and the QRadar App Framework version 1, see the [App Framework version 1 documentation](https://www.ibm.com/support/knowledgecenter/SS42VS_SHR/com.ibm.appfw.doc/c_appfw_container.html). 
 
 * [QRadar app framework version 2](docs/documentation/qradar_app_sdk_overview.md)
   * [GUI application framework fundamentals](docs/documentation/gui_application_framework_fundamentals.md)
