@@ -6,7 +6,7 @@ GUI app framework REST API endpoints.
 **Tip:** Set the version header explicitly to the version of the API you are developing with. If you do
 not set the version header, you will fail app validation when you submit an app to IBM.
 
-<https://www.ibm.com/support/knowledgecenter/en/SS42VS_7.3.2/com.ibm.qradar.doc/c_rest_api_getting_started.html>
+[IBM QRadar RESTful API documentation](https://ibmsecuritydocs.github.io/qradar_api_overview/c_rest_api_getting_started.html)
 
 The following table describes the QRadar RESTful API endpoints:
 
