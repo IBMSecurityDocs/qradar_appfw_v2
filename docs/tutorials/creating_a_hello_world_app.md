@@ -204,6 +204,6 @@ You can use the Hello World sample app to test the QRadar SDK in these ways:
 - However, most importantly you can use the Hello World sample app files as a template to start developing your own
 QRadar apps.
     - [New tab
-    example](https://www.ibm.com/support/knowledgecenter/SS42VS_SHR/com.ibm.appfw.doc/c_appframework_HelloWorldtmplt.html?view=kc)
+    example](https://ibmsecuritydocs.github.io/qradar_appfw_v1/c_appframework_HelloWorldtmplt.html)
     you can build on the Hello World sample app that the IBM® QRadar SDK installs in your app
     workspace to add a tab to QRadar.
