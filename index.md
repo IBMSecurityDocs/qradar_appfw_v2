@@ -59,6 +59,7 @@ They are split into two sections:
   * [Using React and Carbon Components](docs/tutorials/using_react_and_carbon_components.md)
   * [RPM/Python module best practices](docs/tutorials/rpm_python_module_best_practices.md)
   * [Universal Base Image automatic upgrade](docs/documentation/universal_base_image_automatic_upgrade.md)
+  * [QRadar App Editor documentation](https://ibmsecuritydocs.github.io/qradar_app_editor/)
   * [QRadar app base image changelog](docs/documentation/qradar_app_base_image_changelog.md)
   * [QRadar app base image 2.0.4 packages](docs/documentation/qradar_app_base_image_2.0.4_packages.md)
   * [QRadar app base image 2.0.5 packages](docs/documentation/qradar_app_base_image_2.0.5_packages.md)
