@@ -1,4 +1,6 @@
-theme: jekyll-theme-slate
+remote_theme: just-the-docs/just-the-docs
+color_scheme: "dark"
+search_enabled: true
 title: QRadar app framework version 2 documentation
 description: QRadar app framework version 2 documentation
 repository: IBMSecurityDocs/qradar_appfw_v2
