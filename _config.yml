@@ -1,5 +1,5 @@
 remote_theme: just-the-docs/just-the-docs
-color_scheme: "dark"
+color_scheme: nil
 search_enabled: true
 title: QRadar app framework version 2 documentation
 description: QRadar app framework version 2 documentation
