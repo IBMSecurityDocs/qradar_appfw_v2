@@ -40,3 +40,7 @@ files = /etc/supervisord.d/*.conf
 
 For apps that don't use Flask and instead use, for example, nginx: if you add nginx as a named service on port 5000, it is accessible by using the standard app base url `/console/plugins/<_app id_>/app_proxy` as well as the named
 service url `/console/plugins/<_app id_>/app_proxy:<_service name_>`.
+
+## New `location` field in configuration pages
+
+For QRadar version 7.5.0 UP3 and later, users can add an optional `location` parameter to app configuration pages.

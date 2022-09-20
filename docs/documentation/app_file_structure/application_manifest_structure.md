@@ -75,6 +75,14 @@ The following table describes the fields that you can include in the `manifest.j
                 If not specified, this field defaults to true.</td>
         </tr>
         <tr>
+            <td>add_app_capability</td>
+            <td>No</td>
+            <td>Boolean</td>
+            <td>Set to false if you don’t want to add a user role setting for your app. This flag is available for QRadar version 7.5.0 UP3 and later. It is ignored in previous versions. 
+                </br>
+                If not specified, this field defaults to true, and a user role is added automatically.</td>
+        </tr>
+        <tr>
             <td>areas</td>
             <td>No</td>
             <td>Array of Area Type</td>

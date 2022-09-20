@@ -2,6 +2,8 @@
 
 This changelog tracks `qradar-app-base` image releases and versions, documentating changes between each release.
 
+There are two base image release streams, version 3 and version 2, to find out more about the differences between
+these release streams please consult [the QRadar app base version 3 and version 2 page](./qradar_app_base_v3_and_v2.md).
 
 Each release pulls in any security fixes using patch versions provided by Red Hat.
 
@@ -19,13 +21,18 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
     </thead>
     <tbody>
         <tr>
+            <td>3.0.1</td>
+            <td>7.5.0 UP3</td>
+            <td></td>
+        </tr>
+        <tr>
             <td>3.0.0</td>
             <td></td>
             <td>2.1.1</td>
         </tr>
         <tr>
             <td>2.1.8</td>
-            <td></td>
+            <td>7.5.0 UP3</td>
             <td>2.1.1</td>
         </tr>
         <tr>

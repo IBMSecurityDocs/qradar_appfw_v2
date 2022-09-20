@@ -61,6 +61,7 @@ They are split into two sections:
   * [Universal Base Image automatic upgrade](docs/documentation/universal_base_image_automatic_upgrade.md)
   * [QRadar App Editor documentation](https://ibmsecuritydocs.github.io/qradar_app_editor/)
   * [QRadar app base image changelog](docs/documentation/qradar_app_base_image_changelog.md)
+  * [QRadar app base version 3 and version 2](docs/documentation/qradar_app_base_v3_and_v2.md)
   * [QRadar app base image 2.0.4 packages](docs/documentation/qradar_app_base_image_2.0.4_packages.md)
   * [QRadar app base image 2.0.5 packages](docs/documentation/qradar_app_base_image_2.0.5_packages.md)
   * [QRadar app base image 2.1.3 packages](docs/documentation/qradar_app_base_image_2.1.3_packages.md)
@@ -68,3 +69,4 @@ They are split into two sections:
   * [QRadar app base image 2.1.7 packages](docs/documentation/qradar_app_base_image_2.1.7_packages.md)
   * [QRadar app base image 2.1.8 packages](docs/documentation/qradar_app_base_image_2.1.8_packages.md)
   * [QRadar app base image 3.0.0 packages](docs/documentation/qradar_app_base_image_3.0.0_packages.md)
+  * [QRadar app base image 3.0.1 packages](docs/documentation/qradar_app_base_image_3.0.1_packages.md)
