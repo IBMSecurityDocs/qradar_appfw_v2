@@ -56,7 +56,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>charset-normalizer</td>
         <td>2.0.7</td>
-        <td>Previously 2.0.4</td>
+        <td>2.0.4</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -158,7 +158,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>pip</td>
         <td>21.3.1</td>
-        <td>Previously 21.2.3</td>
+        <td>21.2.3</td>
         <td>PyPI</td>
       </tr>
       <tr>

@@ -146,7 +146,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>pip</td>
         <td>21.0.1</td>
-        <td>Previously 20.2.3</td>
+        <td>20.2.3</td>
         <td>PyPI</td>
       </tr>
       <tr>

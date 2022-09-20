@@ -44,7 +44,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>cffi</td>
         <td>1.11.5</td>
-        <td>Previously 1.13.2</td>
+        <td>1.13.2</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -74,7 +74,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>cryptography</td>
         <td>3.2.1</td>
-        <td>Previously 2.8</td>
+        <td>2.8</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -98,7 +98,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>idna</td>
         <td>2.5</td>
-        <td>Previously 2.8</td>
+        <td>2.8</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -122,7 +122,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>Jinja2</td>
         <td>2.10.1</td>
-        <td>Previously 2.11.1</td>
+        <td>2.11.1</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -158,7 +158,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>pip</td>
         <td>21.2.3</td>
-        <td>Previously 21.0.1</td>
+        <td>21.0.1</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -170,7 +170,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>pycparser</td>
         <td>2.14</td>
-        <td>Previously 2.19</td>
+        <td>2.19</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -200,7 +200,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>PySocks</td>
         <td>1.6.8</td>
-        <td>Previously 1.7.1</td>
+        <td>1.7.1</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -212,13 +212,13 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>qpylib</td>
         <td>2.0.6</td>
-        <td>Previously 2.0.3</td>
+        <td>2.0.3</td>
         <td>PyPI</td>
       </tr>
       <tr>
         <td>requests</td>
         <td>2.26.0</td>
-        <td>Previously 2.22.0</td>
+        <td>2.22.0</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -230,7 +230,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>six</td>
         <td>1.11.0</td>
-        <td>Previously 1.14.0</td>
+        <td>1.14.0</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -242,7 +242,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>urllib3</td>
         <td>1.24.2</td>
-        <td>Previously 1.25.8</td>
+        <td>1.25.8</td>
         <td>Red Hat</td>
       </tr>
       <tr>

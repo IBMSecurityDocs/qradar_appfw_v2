@@ -152,7 +152,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>pip</td>
         <td>22.1.2</td>
-        <td>Previously 22.0.4</td>
+        <td>22.0.4</td>
         <td>Red Hat</td>
       </tr>
       <tr>

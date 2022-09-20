@@ -34,7 +34,7 @@ The following table describes the fields that you can include in the `manifest.j
             <td>version</td>
             <td>Yes</td>
             <td>String</td>
-            <td>A version string for the app. We recommend you use the following format: `x.x.x`. 
+            <td>A version string for the app. We recommend you use the following format: `x.x.x`.
             </br>**Example:** `1.0.0`</td>
         </tr>
         <tr>
@@ -69,18 +69,10 @@ The following table describes the fields that you can include in the `manifest.j
             <td>load_flask</td>
             <td>No</td>
             <td>Boolean</td>
-            <td>Set to false if you don’t want to make Python Flask framework available to your app. 
+            <td>Set to false if you don’t want to make Python Flask framework available to your app.
             **Tip:** Disable Flask if you want your app to use a different web application framework.
                 </br>
                 If not specified, this field defaults to true.</td>
-        </tr>
-        <tr>
-            <td>add_app_capability</td>
-            <td>No</td>
-            <td>Boolean</td>
-            <td>Set to false if you don’t want to add a user role setting for your app. This flag is available for QRadar version 7.5.0 UP3 and later. It is ignored in previous versions. 
-                </br>
-                If not specified, this field defaults to true, and a user role is added automatically.</td>
         </tr>
         <tr>
             <td>areas</td>
@@ -129,7 +121,7 @@ The following table describes the fields that you can include in the `manifest.j
             <td>No</td>
             <td>Array of Metadata Provider type</td>
             <td>Metadata Provider objects describe REST methods that can be called to fetch new metadata information for
-                certain data types in QRadar 
+                certain data types in QRadar
                 </br>**Example:** IP
                 </br>Metadata is displayed in a tooltip when the user hovers over an
                 item.</td>
@@ -188,7 +180,7 @@ The following table describes the fields that you can include in the `manifest.j
             <td>use_qradar_csrf</td>
             <td>No</td>
             <td>Boolean</td>
-            <td>If set to true, csrf support is handled by QRadar for the app. 
+            <td>If set to true, csrf support is handled by QRadar for the app.
             </br>If not specified, the default is false.
             </td>
         </tr>
