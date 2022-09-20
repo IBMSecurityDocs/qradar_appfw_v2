@@ -346,7 +346,7 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>cryptsetup-libs</td>
         <td>2.3.3-4.el8_5.1</td>
-        <td>Previously 2.3.3-4.el8</td>
+        <td>2.3.3-4.el8</td>
       </tr>
       <tr>
         <td>curl</td>
@@ -356,7 +356,7 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>cyrus-sasl-lib</td>
         <td>2.1.27-6.el8_5</td>
-        <td>Previously 2.1.27-5.el8</td>
+        <td>2.1.27-5.el8</td>
       </tr>
       <tr>
         <td>dbus</td>
@@ -386,12 +386,12 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>device-mapper</td>
         <td>1.02.177-11.el8_5</td>
-        <td>Previously 1.02.177-10.el8</td>
+        <td>1.02.177-10.el8</td>
       </tr>
       <tr>
         <td>device-mapper-libs</td>
         <td>1.02.177-11.el8_5</td>
-        <td>Previously 1.02.177-10.el8</td>
+        <td>1.02.177-10.el8</td>
       </tr>
       <tr>
         <td>diffutils</td>
@@ -421,7 +421,7 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>expat</td>
         <td>2.2.5-4.el8_5.3</td>
-        <td>Previously 2.2.5-4.el8</td>
+        <td>2.2.5-4.el8</td>
       </tr>
       <tr>
         <td>file-libs</td>
@@ -461,27 +461,27 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>glibc</td>
         <td>2.28-164.el8_5.3</td>
-        <td>Previously 2.28-164.el8</td>
+        <td>2.28-164.el8</td>
       </tr>
       <tr>
         <td>glibc-common</td>
         <td>2.28-164.el8_5.3</td>
-        <td>Previously 2.28-164.el8</td>
+        <td>2.28-164.el8</td>
       </tr>
       <tr>
         <td>glibc-langpack-en</td>
         <td>2.28-164.el8_5.3</td>
-        <td>Previously 2.28-164.el8</td>
+        <td>2.28-164.el8</td>
       </tr>
       <tr>
         <td>glibc-locale-source</td>
         <td>2.28-164.el8_5.3</td>
-        <td>Previously 2.28-164.el8</td>
+        <td>2.28-164.el8</td>
       </tr>
       <tr>
         <td>glibc-minimal-langpack</td>
         <td>2.28-164.el8_5.3</td>
-        <td>Previously 2.28-164.el8</td>
+        <td>2.28-164.el8</td>
       </tr>
       <tr>
         <td>gmp</td>
@@ -506,13 +506,13 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>gpg-pubkey</td>
         <td>fd431d51-4ae0493b</td>
-        <td>Previously fd431d51-4ae0493b
+        <td>fd431d51-4ae0493b
 d4082792-5b32db75</td>
       </tr>
       <tr>
         <td>gpg-pubkey</td>
         <td>d4082792-5b32db75</td>
-        <td>Previously fd431d51-4ae0493b
+        <td>fd431d51-4ae0493b
 d4082792-5b32db75</td>
       </tr>
       <tr>
@@ -603,7 +603,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>libarchive</td>
         <td>3.3.3-3.el8_5</td>
-        <td>Previously 3.3.3-1.el8</td>
+        <td>3.3.3-1.el8</td>
       </tr>
       <tr>
         <td>libassuan</td>
@@ -848,7 +848,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>libxml2</td>
         <td>2.9.7-12.el8_5</td>
-        <td>Previously 2.9.7-9.el8_4.2</td>
+        <td>2.9.7-9.el8_4.2</td>
       </tr>
       <tr>
         <td>libyaml</td>
@@ -908,12 +908,12 @@ d4082792-5b32db75</td>
       <tr>
         <td>openssl</td>
         <td>1.1.1k-6.el8_5</td>
-        <td>Previously 1.1.1k-4.el8</td>
+        <td>1.1.1k-4.el8</td>
       </tr>
       <tr>
         <td>openssl-libs</td>
         <td>1.1.1k-6.el8_5</td>
-        <td>Previously 1.1.1k-4.el8</td>
+        <td>1.1.1k-4.el8</td>
       </tr>
       <tr>
         <td>p11-kit</td>
@@ -1098,12 +1098,12 @@ d4082792-5b32db75</td>
       <tr>
         <td>rpm</td>
         <td>4.14.3-19.el8_5.2</td>
-        <td>Previously 4.14.3-19.el8</td>
+        <td>4.14.3-19.el8</td>
       </tr>
       <tr>
         <td>rpm-libs</td>
         <td>4.14.3-19.el8_5.2</td>
-        <td>Previously 4.14.3-19.el8</td>
+        <td>4.14.3-19.el8</td>
       </tr>
       <tr>
         <td>sed</td>
@@ -1138,27 +1138,27 @@ d4082792-5b32db75</td>
       <tr>
         <td>systemd</td>
         <td>239-51.el8_5.5</td>
-        <td>Previously 239-51.el8</td>
+        <td>239-51.el8</td>
       </tr>
       <tr>
         <td>systemd-libs</td>
         <td>239-51.el8_5.5</td>
-        <td>Previously 239-51.el8</td>
+        <td>239-51.el8</td>
       </tr>
       <tr>
         <td>systemd-pam</td>
         <td>239-51.el8_5.5</td>
-        <td>Previously 239-51.el8</td>
+        <td>239-51.el8</td>
       </tr>
       <tr>
         <td>systemd-udev</td>
         <td>239-51.el8_5.5</td>
-        <td>Previously 239-51.el8</td>
+        <td>239-51.el8</td>
       </tr>
       <tr>
         <td>tzdata</td>
         <td>2022a-1.el8</td>
-        <td>Previously 2021e-1.el8</td>
+        <td>2021e-1.el8</td>
       </tr>
       <tr>
         <td>util-linux</td>
@@ -1168,7 +1168,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>vim-minimal</td>
         <td>8.0.1763-16.el8_5.12</td>
-        <td>Previously 8.0.1763-16.el8</td>
+        <td>8.0.1763-16.el8</td>
       </tr>
       <tr>
         <td>xkeyboard-config</td>

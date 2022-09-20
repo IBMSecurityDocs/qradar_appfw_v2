@@ -291,7 +291,7 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>bash</td>
         <td>4.4.20-2.el8</td>
-        <td>Previously 4.4.20-1.el8_4</td>
+        <td>4.4.20-1.el8_4</td>
       </tr>
       <tr>
         <td>brotli</td>
@@ -306,17 +306,17 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>ca-certificates</td>
         <td>2021.2.50-80.0.el8_4</td>
-        <td>Previously 2020.2.41-80.0.el8_2</td>
+        <td>2020.2.41-80.0.el8_2</td>
       </tr>
       <tr>
         <td>chkconfig</td>
         <td>1.19.1-1.el8</td>
-        <td>Previously 1.13-2.el8</td>
+        <td>1.13-2.el8</td>
       </tr>
       <tr>
         <td>coreutils-single</td>
         <td>8.30-12.el8</td>
-        <td>Previously 8.30-8.el8</td>
+        <td>8.30-8.el8</td>
       </tr>
       <tr>
         <td>cpio</td>
@@ -336,12 +336,12 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>crypto-policies</td>
         <td>20210617-1.gitc776d3e.el8</td>
-        <td>Previously 20210209-1.gitbfb6bed.el8_3</td>
+        <td>20210209-1.gitbfb6bed.el8_3</td>
       </tr>
       <tr>
         <td>crypto-policies-scripts</td>
         <td>20210617-1.gitc776d3e.el8</td>
-        <td>Previously 20210209-1.gitbfb6bed.el8_3</td>
+        <td>20210209-1.gitbfb6bed.el8_3</td>
       </tr>
       <tr>
         <td>cryptsetup-libs</td>
@@ -351,7 +351,7 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>curl</td>
         <td>7.61.1-22.el8</td>
-        <td>Previously 7.61.1-18.el8</td>
+        <td>7.61.1-18.el8</td>
       </tr>
       <tr>
         <td>cyrus-sasl-lib</td>
@@ -361,37 +361,37 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>dbus</td>
         <td>1.12.8-14.el8</td>
-        <td>Previously 1.12.8-12.el8_4.2</td>
+        <td>1.12.8-12.el8_4.2</td>
       </tr>
       <tr>
         <td>dbus-common</td>
         <td>1.12.8-14.el8</td>
-        <td>Previously 1.12.8-12.el8_4.2</td>
+        <td>1.12.8-12.el8_4.2</td>
       </tr>
       <tr>
         <td>dbus-daemon</td>
         <td>1.12.8-14.el8</td>
-        <td>Previously 1.12.8-12.el8_4.2</td>
+        <td>1.12.8-12.el8_4.2</td>
       </tr>
       <tr>
         <td>dbus-libs</td>
         <td>1.12.8-14.el8</td>
-        <td>Previously 1.12.8-12.el8_4.2</td>
+        <td>1.12.8-12.el8_4.2</td>
       </tr>
       <tr>
         <td>dbus-tools</td>
         <td>1.12.8-14.el8</td>
-        <td>Previously 1.12.8-12.el8_4.2</td>
+        <td>1.12.8-12.el8_4.2</td>
       </tr>
       <tr>
         <td>device-mapper</td>
         <td>1.02.177-10.el8</td>
-        <td>Previously 1.02.175-5.el8</td>
+        <td>1.02.175-5.el8</td>
       </tr>
       <tr>
         <td>device-mapper-libs</td>
         <td>1.02.177-10.el8</td>
-        <td>Previously 1.02.175-5.el8</td>
+        <td>1.02.175-5.el8</td>
       </tr>
       <tr>
         <td>diffutils</td>
@@ -401,22 +401,22 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>dracut</td>
         <td>049-191.git20210920.el8</td>
-        <td>Previously 049-135.git20210121.el8</td>
+        <td>049-135.git20210121.el8</td>
       </tr>
       <tr>
         <td>elfutils-default-yama-scope</td>
         <td>0.185-1.el8</td>
-        <td>Previously 0.182-3.el8</td>
+        <td>0.182-3.el8</td>
       </tr>
       <tr>
         <td>elfutils-libelf</td>
         <td>0.185-1.el8</td>
-        <td>Previously 0.182-3.el8</td>
+        <td>0.182-3.el8</td>
       </tr>
       <tr>
         <td>elfutils-libs</td>
         <td>0.185-1.el8</td>
-        <td>Previously 0.182-3.el8</td>
+        <td>0.182-3.el8</td>
       </tr>
       <tr>
         <td>expat</td>
@@ -426,12 +426,12 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>file-libs</td>
         <td>5.33-20.el8</td>
-        <td>Previously 5.33-16.el8_3.1</td>
+        <td>5.33-16.el8_3.1</td>
       </tr>
       <tr>
         <td>filesystem</td>
         <td>3.8-6.el8</td>
-        <td>Previously 3.8-3.el8</td>
+        <td>3.8-3.el8</td>
       </tr>
       <tr>
         <td>findutils</td>
@@ -456,32 +456,32 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>glib2</td>
         <td>2.56.4-156.el8</td>
-        <td>Previously 2.56.4-10.el8_4</td>
+        <td>2.56.4-10.el8_4</td>
       </tr>
       <tr>
         <td>glibc</td>
         <td>2.28-164.el8</td>
-        <td>Previously 2.28-151.el8</td>
+        <td>2.28-151.el8</td>
       </tr>
       <tr>
         <td>glibc-common</td>
         <td>2.28-164.el8</td>
-        <td>Previously 2.28-151.el8</td>
+        <td>2.28-151.el8</td>
       </tr>
       <tr>
         <td>glibc-langpack-en</td>
         <td>2.28-164.el8</td>
-        <td>Previously 2.28-151.el8</td>
+        <td>2.28-151.el8</td>
       </tr>
       <tr>
         <td>glibc-locale-source</td>
         <td>2.28-164.el8</td>
-        <td>Previously 2.28-151.el8</td>
+        <td>2.28-151.el8</td>
       </tr>
       <tr>
         <td>glibc-minimal-langpack</td>
         <td>2.28-164.el8</td>
-        <td>Previously 2.28-151.el8</td>
+        <td>2.28-151.el8</td>
       </tr>
       <tr>
         <td>gmp</td>
@@ -496,7 +496,7 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>gnutls</td>
         <td>3.6.16-4.el8</td>
-        <td>Previously 3.6.14-8.el8_3</td>
+        <td>3.6.14-8.el8_3</td>
       </tr>
       <tr>
         <td>gobject-introspection</td>
@@ -506,19 +506,19 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>gpg-pubkey</td>
         <td>fd431d51-4ae0493b</td>
-        <td>Previously fd431d51-4ae0493b
+        <td>fd431d51-4ae0493b
 d4082792-5b32db75</td>
       </tr>
       <tr>
         <td>gpg-pubkey</td>
         <td>d4082792-5b32db75</td>
-        <td>Previously fd431d51-4ae0493b
+        <td>fd431d51-4ae0493b
 d4082792-5b32db75</td>
       </tr>
       <tr>
         <td>gpgme</td>
         <td>1.13.1-9.el8</td>
-        <td>Previously 1.13.1-7.el8</td>
+        <td>1.13.1-7.el8</td>
       </tr>
       <tr>
         <td>grep</td>
@@ -543,7 +543,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>json-c</td>
         <td>0.13.1-2.el8</td>
-        <td>Previously 0.13.1-0.4.el8</td>
+        <td>0.13.1-0.4.el8</td>
       </tr>
       <tr>
         <td>json-glib</td>
@@ -568,27 +568,27 @@ d4082792-5b32db75</td>
       <tr>
         <td>keyutils-libs</td>
         <td>1.5.10-9.el8</td>
-        <td>Previously 1.5.10-6.el8</td>
+        <td>1.5.10-6.el8</td>
       </tr>
       <tr>
         <td>kmod</td>
         <td>25-18.el8</td>
-        <td>Previously 25-17.el8</td>
+        <td>25-17.el8</td>
       </tr>
       <tr>
         <td>kmod-libs</td>
         <td>25-18.el8</td>
-        <td>Previously 25-17.el8</td>
+        <td>25-17.el8</td>
       </tr>
       <tr>
         <td>kpartx</td>
         <td>0.8.4-17.el8</td>
-        <td>Previously 0.8.4-10.el8</td>
+        <td>0.8.4-10.el8</td>
       </tr>
       <tr>
         <td>krb5-libs</td>
         <td>1.18.2-14.el8</td>
-        <td>Previously 1.18.2-8.el8</td>
+        <td>1.18.2-8.el8</td>
       </tr>
       <tr>
         <td>langpacks-en</td>
@@ -618,47 +618,47 @@ d4082792-5b32db75</td>
       <tr>
         <td>libblkid</td>
         <td>2.32.1-28.el8</td>
-        <td>Previously 2.32.1-27.el8</td>
+        <td>2.32.1-27.el8</td>
       </tr>
       <tr>
         <td>libcap</td>
         <td>2.26-5.el8</td>
-        <td>Previously 2.26-4.el8</td>
+        <td>2.26-4.el8</td>
       </tr>
       <tr>
         <td>libcap-ng</td>
         <td>0.7.11-1.el8</td>
-        <td>Previously 0.7.9-5.el8</td>
+        <td>0.7.9-5.el8</td>
       </tr>
       <tr>
         <td>libcom_err</td>
         <td>1.45.6-2.el8</td>
-        <td>Previously 1.45.6-1.el8</td>
+        <td>1.45.6-1.el8</td>
       </tr>
       <tr>
         <td>libcurl</td>
         <td>7.61.1-22.el8</td>
-        <td>Previously 7.61.1-18.el8</td>
+        <td>7.61.1-18.el8</td>
       </tr>
       <tr>
         <td>libdb</td>
         <td>5.3.28-42.el8_4</td>
-        <td>Previously 5.3.28-40.el8</td>
+        <td>5.3.28-40.el8</td>
       </tr>
       <tr>
         <td>libdb-utils</td>
         <td>5.3.28-42.el8_4</td>
-        <td>Previously 5.3.28-40.el8</td>
+        <td>5.3.28-40.el8</td>
       </tr>
       <tr>
         <td>libdnf</td>
         <td>0.63.0-3.el8</td>
-        <td>Previously 0.55.0-7.el8</td>
+        <td>0.55.0-7.el8</td>
       </tr>
       <tr>
         <td>libfdisk</td>
         <td>2.32.1-28.el8</td>
-        <td>Previously 2.32.1-27.el8</td>
+        <td>2.32.1-27.el8</td>
       </tr>
       <tr>
         <td>libffi</td>
@@ -668,12 +668,12 @@ d4082792-5b32db75</td>
       <tr>
         <td>libgcc</td>
         <td>8.5.0-4.el8_5</td>
-        <td>Previously 8.4.1-1.el8</td>
+        <td>8.4.1-1.el8</td>
       </tr>
       <tr>
         <td>libgcrypt</td>
         <td>1.8.5-6.el8</td>
-        <td>Previously 1.8.5-4.el8</td>
+        <td>1.8.5-4.el8</td>
       </tr>
       <tr>
         <td>libgpg-error</td>
@@ -703,12 +703,12 @@ d4082792-5b32db75</td>
       <tr>
         <td>libmodulemd</td>
         <td>2.13.0-1.el8</td>
-        <td>Previously 2.9.4-2.el8</td>
+        <td>2.9.4-2.el8</td>
       </tr>
       <tr>
         <td>libmount</td>
         <td>2.32.1-28.el8</td>
-        <td>Previously 2.32.1-27.el8</td>
+        <td>2.32.1-27.el8</td>
       </tr>
       <tr>
         <td>libnghttp2</td>
@@ -738,7 +738,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>librepo</td>
         <td>1.14.0-2.el8</td>
-        <td>Previously 1.12.0-3.el8</td>
+        <td>1.12.0-3.el8</td>
       </tr>
       <tr>
         <td>librhsm</td>
@@ -763,7 +763,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>libsepol</td>
         <td>2.9-3.el8</td>
-        <td>Previously 2.9-2.el8</td>
+        <td>2.9-2.el8</td>
       </tr>
       <tr>
         <td>libsigsegv</td>
@@ -773,27 +773,27 @@ d4082792-5b32db75</td>
       <tr>
         <td>libsmartcols</td>
         <td>2.32.1-28.el8</td>
-        <td>Previously 2.32.1-27.el8</td>
+        <td>2.32.1-27.el8</td>
       </tr>
       <tr>
         <td>libsolv</td>
         <td>0.7.19-1.el8</td>
-        <td>Previously 0.7.16-2.el8</td>
+        <td>0.7.16-2.el8</td>
       </tr>
       <tr>
         <td>libssh</td>
         <td>0.9.4-3.el8</td>
-        <td>Previously 0.9.4-2.el8</td>
+        <td>0.9.4-2.el8</td>
       </tr>
       <tr>
         <td>libssh-config</td>
         <td>0.9.4-3.el8</td>
-        <td>Previously 0.9.4-2.el8</td>
+        <td>0.9.4-2.el8</td>
       </tr>
       <tr>
         <td>libstdc++</td>
         <td>8.5.0-4.el8_5</td>
-        <td>Previously 8.4.1-1.el8</td>
+        <td>8.4.1-1.el8</td>
       </tr>
       <tr>
         <td>libtasn1</td>
@@ -803,7 +803,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>libtirpc</td>
         <td>1.1.4-5.el8</td>
-        <td>Previously 1.1.4-4.el8</td>
+        <td>1.1.4-4.el8</td>
       </tr>
       <tr>
         <td>libunistring</td>
@@ -828,7 +828,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>libuuid</td>
         <td>2.32.1-28.el8</td>
-        <td>Previously 2.32.1-27.el8</td>
+        <td>2.32.1-27.el8</td>
       </tr>
       <tr>
         <td>libverto</td>
@@ -838,7 +838,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>libxcrypt</td>
         <td>4.1.1-6.el8</td>
-        <td>Previously 4.1.1-4.el8</td>
+        <td>4.1.1-4.el8</td>
       </tr>
       <tr>
         <td>libxkbcommon</td>
@@ -863,7 +863,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>lua-libs</td>
         <td>5.3.4-12.el8</td>
-        <td>Previously 5.3.4-11.el8</td>
+        <td>5.3.4-11.el8</td>
       </tr>
       <tr>
         <td>lz4-libs</td>
@@ -873,7 +873,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>microdnf</td>
         <td>3.8.0-2.el8</td>
-        <td>Previously 3.4.0-4.el8</td>
+        <td>3.4.0-4.el8</td>
       </tr>
       <tr>
         <td>mpfr</td>
@@ -883,17 +883,17 @@ d4082792-5b32db75</td>
       <tr>
         <td>ncurses-base</td>
         <td>6.1-9.20180224.el8</td>
-        <td>Previously 6.1-7.20180224.el8</td>
+        <td>6.1-7.20180224.el8</td>
       </tr>
       <tr>
         <td>ncurses-libs</td>
         <td>6.1-9.20180224.el8</td>
-        <td>Previously 6.1-7.20180224.el8</td>
+        <td>6.1-7.20180224.el8</td>
       </tr>
       <tr>
         <td>nettle</td>
         <td>3.4.1-7.el8</td>
-        <td>Previously 3.4.1-4.el8_3</td>
+        <td>3.4.1-4.el8_3</td>
       </tr>
       <tr>
         <td>npth</td>
@@ -903,17 +903,17 @@ d4082792-5b32db75</td>
       <tr>
         <td>openldap</td>
         <td>2.4.46-18.el8</td>
-        <td>Previously 2.4.46-17.el8_4</td>
+        <td>2.4.46-17.el8_4</td>
       </tr>
       <tr>
         <td>openssl</td>
         <td>1.1.1k-4.el8</td>
-        <td>Previously 1.1.1g-15.el8_3</td>
+        <td>1.1.1g-15.el8_3</td>
       </tr>
       <tr>
         <td>openssl-libs</td>
         <td>1.1.1k-4.el8</td>
-        <td>Previously 1.1.1g-15.el8_3</td>
+        <td>1.1.1g-15.el8_3</td>
       </tr>
       <tr>
         <td>p11-kit</td>
@@ -928,7 +928,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>pam</td>
         <td>1.3.1-15.el8</td>
-        <td>Previously 1.3.1-14.el8</td>
+        <td>1.3.1-14.el8</td>
       </tr>
       <tr>
         <td>passwd</td>
@@ -938,7 +938,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>pcre</td>
         <td>8.42-6.el8</td>
-        <td>Previously 8.42-4.el8</td>
+        <td>8.42-4.el8</td>
       </tr>
       <tr>
         <td>pcre2</td>
@@ -953,12 +953,12 @@ d4082792-5b32db75</td>
       <tr>
         <td>platform-python</td>
         <td>3.6.8-41.el8</td>
-        <td>Previously 3.6.8-37.el8</td>
+        <td>3.6.8-37.el8</td>
       </tr>
       <tr>
         <td>platform-python-pip</td>
         <td>9.0.3-20.el8</td>
-        <td>Previously 9.0.3-19.el8</td>
+        <td>9.0.3-19.el8</td>
       </tr>
       <tr>
         <td>platform-python-setuptools</td>
@@ -983,7 +983,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>python3-babel</td>
         <td>2.5.1-7.el8</td>
-        <td>Previously 2.5.1-5.el8</td>
+        <td>2.5.1-5.el8</td>
       </tr>
       <tr>
         <td>python3-cffi</td>
@@ -998,7 +998,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>python3-cryptography</td>
         <td>3.2.1-5.el8</td>
-        <td>Previously 3.2.1-4.el8</td>
+        <td>3.2.1-4.el8</td>
       </tr>
       <tr>
         <td>python3-idna</td>
@@ -1008,12 +1008,12 @@ d4082792-5b32db75</td>
       <tr>
         <td>python3-jinja2</td>
         <td>2.10.1-3.el8</td>
-        <td>Previously 2.10.1-2.el8_0</td>
+        <td>2.10.1-2.el8_0</td>
       </tr>
       <tr>
         <td>python3-libs</td>
         <td>3.6.8-41.el8</td>
-        <td>Previously 3.6.8-37.el8</td>
+        <td>3.6.8-37.el8</td>
       </tr>
       <tr>
         <td>python3-markupsafe</td>
@@ -1023,12 +1023,12 @@ d4082792-5b32db75</td>
       <tr>
         <td>python3-pip</td>
         <td>9.0.3-20.el8</td>
-        <td>Previously 9.0.3-19.el8</td>
+        <td>9.0.3-19.el8</td>
       </tr>
       <tr>
         <td>python3-pip-wheel</td>
         <td>9.0.3-20.el8</td>
-        <td>Previously 9.0.3-19.el8</td>
+        <td>9.0.3-19.el8</td>
       </tr>
       <tr>
         <td>python3-ply</td>
@@ -1078,7 +1078,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>python36</td>
         <td>3.6.8-38.module+el8.5.0+12207+5c5719bc</td>
-        <td>Previously 3.6.8-2.module+el8.1.0+3334+5cb623d7</td>
+        <td>3.6.8-2.module+el8.1.0+3334+5cb623d7</td>
       </tr>
       <tr>
         <td>readline</td>
@@ -1088,7 +1088,7 @@ d4082792-5b32db75</td>
       <tr>
         <td>redhat-release</td>
         <td>8.5-0.8.el8</td>
-        <td>Previously 8.4-0.6.el8</td>
+        <td>8.4-0.6.el8</td>
       </tr>
       <tr>
         <td>rootfiles</td>
@@ -1098,12 +1098,12 @@ d4082792-5b32db75</td>
       <tr>
         <td>rpm</td>
         <td>4.14.3-19.el8</td>
-        <td>Previously 4.14.3-14.el8_4</td>
+        <td>4.14.3-14.el8_4</td>
       </tr>
       <tr>
         <td>rpm-libs</td>
         <td>4.14.3-19.el8</td>
-        <td>Previously 4.14.3-14.el8_4</td>
+        <td>4.14.3-14.el8_4</td>
       </tr>
       <tr>
         <td>sed</td>
@@ -1118,57 +1118,57 @@ d4082792-5b32db75</td>
       <tr>
         <td>shadow-utils</td>
         <td>4.6-14.el8</td>
-        <td>Previously 4.6-12.el8</td>
+        <td>4.6-12.el8</td>
       </tr>
       <tr>
         <td>sqlite</td>
         <td>3.26.0-15.el8</td>
-        <td>Previously 3.26.0-13.el8</td>
+        <td>3.26.0-13.el8</td>
       </tr>
       <tr>
         <td>sqlite-libs</td>
         <td>3.26.0-15.el8</td>
-        <td>Previously 3.26.0-13.el8</td>
+        <td>3.26.0-13.el8</td>
       </tr>
       <tr>
         <td>sudo</td>
         <td>1.8.29-7.el8_4.1</td>
-        <td>Previously 1.8.29-7.el8</td>
+        <td>1.8.29-7.el8</td>
       </tr>
       <tr>
         <td>systemd</td>
         <td>239-51.el8</td>
-        <td>Previously 239-45.el8_4.2</td>
+        <td>239-45.el8_4.2</td>
       </tr>
       <tr>
         <td>systemd-libs</td>
         <td>239-51.el8</td>
-        <td>Previously 239-45.el8_4.2</td>
+        <td>239-45.el8_4.2</td>
       </tr>
       <tr>
         <td>systemd-pam</td>
         <td>239-51.el8</td>
-        <td>Previously 239-45.el8_4.2</td>
+        <td>239-45.el8_4.2</td>
       </tr>
       <tr>
         <td>systemd-udev</td>
         <td>239-51.el8</td>
-        <td>Previously 239-45.el8_4.2</td>
+        <td>239-45.el8_4.2</td>
       </tr>
       <tr>
         <td>tzdata</td>
         <td>2021e-1.el8</td>
-        <td>Previously 2021a-1.el8</td>
+        <td>2021a-1.el8</td>
       </tr>
       <tr>
         <td>util-linux</td>
         <td>2.32.1-28.el8</td>
-        <td>Previously 2.32.1-27.el8</td>
+        <td>2.32.1-27.el8</td>
       </tr>
       <tr>
         <td>vim-minimal</td>
         <td>8.0.1763-16.el8</td>
-        <td>Previously 8.0.1763-15.el8</td>
+        <td>8.0.1763-15.el8</td>
       </tr>
       <tr>
         <td>xkeyboard-config</td>
