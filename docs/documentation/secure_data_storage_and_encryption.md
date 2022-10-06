@@ -32,7 +32,7 @@ name:
 
 ```python
 value = "value to be encrypted"
-encrypted = enc.encrypt(_value_)
+encrypted = enc.encrypt(value)
 ```
 
 The encrypt function then returns the encrypted value, while also saving to the encryption file.
