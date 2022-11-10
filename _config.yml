@@ -1,5 +1,5 @@
 remote_theme: just-the-docs/just-the-docs
-title: QRadar app framework v2 docs
+title: QRadar app framework version 2
 description: QRadar app framework version 2 documentation
 repository: IBMSecurityDocs/qradar_appfw_v2
 exclude: [scripts, templates, README.md, README.public.md, STYLE_GUIDE.md, Makefile, lint-rules.json, Gemfile*]
