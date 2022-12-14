@@ -94,7 +94,7 @@ instance of the app is uninstalled.
 
 ## Write the code to manage the reference data
 
-Create a new file called `ref_data.py` to handle any interactions with reference data, allowing the app to create, get,
+Create a new file called `ref_data.py` under the app folder to handle any interactions with reference data, allowing the app to create, get,
 update, and delete reference data:
 
 ```python
@@ -114,6 +114,9 @@ def update_reference_data_value(value):
 def get_reference_data_value():
     response = qpylib.REST(
         'get', '/api/reference_data/maps/{0}'.format(REFERENCE_DATA_MAP_NAME))
+    if response.status_code == 404:
+        create_reference_data_map_if_not_exists()
+        return get_reference_data_value()
     resp_data = response.json()
     data = resp_data['data']
     reference = data[REFERENCE_DATA_MAP_KEY]
@@ -121,8 +124,11 @@ def get_reference_data_value():
 
 
 def delete_reference_data():
-    qpylib.REST('delete',
+    response = qpylib.REST('delete',
                 '/api/reference_data/maps/{0}'.format(REFERENCE_DATA_MAP_NAME))
+    if response.status_code == 202:
+        return {'result': 'success'}, 200
+    return {'result': 'failed to delete reference data map'}, 500
 
 
 def create_reference_data_key_if_not_exists(data):
@@ -201,8 +207,7 @@ def set_reference_data():
 
 @viewsbp.route('/uninstall_delete_reference_data', methods=['POST'])
 def uninstall_delete_reference_data():
-    delete_reference_data()
-    return "OK!", 200
+    return delete_reference_data()
 ```
 
 This sets up three endpoints:

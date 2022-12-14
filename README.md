@@ -1,4 +1,4 @@
-# QRadar app framework v2 documentation
+# QRadar app framework version 2 documentation
 
 This project holds the QRadar app framework version 2 documentation. This is a read only repository, and as such
 does not accept pull requests.

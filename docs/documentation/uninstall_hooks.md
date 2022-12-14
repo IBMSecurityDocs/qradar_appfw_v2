@@ -44,6 +44,11 @@ exposed to the user in an error message on hook failure
 - `last_instance_only` - An optional flag, if set to `true` then the uninstall hook will only be run when the last
 instance of an app is uninstalled, this can be useful for multi-tenanted apps
 
+**Note**: the uninstall hook endpoint specified under rest_methods in the manifest json must:
+
+- Return a success HTTP response code between 200->299 (inclusive).
+- Return a valid JSON response, can be anything, but must be valid JSON, e.g. {} would be fine.
+
 ## Lifecycle of an uninstall hook
 
 The lifecycle of the app uninstall hook is the following:
