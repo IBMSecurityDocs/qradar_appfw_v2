@@ -68,5 +68,7 @@ They are split into two sections:
   * [QRadar app base image 2.1.6 packages](docs/documentation/qradar_app_base_image_2.1.6_packages.md)
   * [QRadar app base image 2.1.7 packages](docs/documentation/qradar_app_base_image_2.1.7_packages.md)
   * [QRadar app base image 2.1.8 packages](docs/documentation/qradar_app_base_image_2.1.8_packages.md)
+  * [QRadar app base image 2.1.12 packages](docs/documentation/qradar_app_base_image_2.1.12_packages.md)
   * [QRadar app base image 3.0.0 packages](docs/documentation/qradar_app_base_image_3.0.0_packages.md)
   * [QRadar app base image 3.0.1 packages](docs/documentation/qradar_app_base_image_3.0.1_packages.md)
+  * [QRadar app base image 3.0.5 packages](docs/documentation/qradar_app_base_image_3.0.5_packages.md)

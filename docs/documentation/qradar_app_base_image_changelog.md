@@ -21,6 +21,11 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
     </thead>
     <tbody>
         <tr>
+            <td>3.0.5</td>
+            <td>7.5.0 UP4</td>
+            <td></td>
+        </tr>
+        <tr>
             <td>3.0.1</td>
             <td>7.5.0 UP3</td>
             <td></td>
@@ -29,6 +34,11 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
             <td>3.0.0</td>
             <td></td>
             <td>2.1.1</td>
+        </tr>
+        <tr>
+            <td>2.1.12</td>
+            <td>7.5.0 UP4</td>
+            <td></td>
         </tr>
         <tr>
             <td>2.1.8</td>
@@ -63,10 +73,22 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
     </tbody>
 </table>
 
+## 3.0.5
+
+- Upgraded packages to resolve security vulnerabilities.
+
+## 3.0.1
+
+- Upgraded packages to resolve security vulnerabilities.
+
 ## 3.0.0
 
 - New qradar-app-base image release stream, uses Python 3.8.
 - Python packages switched to Python 3.8 versions.
+
+## 2.1.12
+
+- Upgraded packages to resolve security vulnerabilities.
 
 ## 2.1.8
 
