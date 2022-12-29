@@ -1,4 +1,4 @@
-# QRadar app framework version 2 documentation
+# QRadar app framework v2
 
 These are the QRadar App Framework docs.
 
