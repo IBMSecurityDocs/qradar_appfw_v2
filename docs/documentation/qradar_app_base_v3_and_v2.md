@@ -4,7 +4,7 @@ In QRadar 7.5.0 Update Pack 3 and above, there is a new QRadar app base image ve
 version stream uses Python 3.8 rather than Python 3.6 as the version 2 stream does.
 
 Both version streams are supported, and the default is still version 2, since it is supported in 7.5.0 and earlier
-versions, while version 3 is only supported in 7.5.0 Update Pack 3 and above.
+versions, while version 3 is only supported in 7.5.0 Update Pack 3 and 7.4.3 Fix Pack 8 and above.
 
 The new QRadar app base version 3 stream was introduced because Python 3.6 is now officially end of life. While
 QRadar app base version 2 can continue to safely use Python 3.6, because of official Red Hat maintenance, some external
