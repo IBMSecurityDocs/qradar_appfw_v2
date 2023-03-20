@@ -31,6 +31,10 @@ automatically by QRadar and are available to use in your app.
             <td>The user id for appuser.</td>
         </tr>
         <tr>
+            <td>IS_QROC</td>
+            <td>This variable is set to true if the app is running on QRadar on Cloud. Otherwise it is set to false. <b>Note:</b> this environment variable is only available in QRadar 7.5.0 UP5 and later.</td>
+        </tr>
+        <tr>
             <td>LANG</td>
             <td>The language code and character encoding that is used by the QRadar Console UI when the app is
                 installed.</td>
