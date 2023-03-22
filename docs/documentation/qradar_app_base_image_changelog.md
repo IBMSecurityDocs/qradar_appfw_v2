@@ -22,7 +22,7 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
     <tbody>
         <tr>
             <td>3.0.9</td>
-            <td>7.5.0 UP5</td>
+            <td>7.5.0 UP5, 7.4.3 FP9</td>
             <td></td>
         </tr>
         <tr>
@@ -42,7 +42,7 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
         </tr>
         <tr>
             <td>2.1.16</td>
-            <td>7.5.0 UP5</td>
+            <td>7.5.0 UP5, 7.4.3 FP9</td>
             <td></td>
         </tr>
         <tr>
