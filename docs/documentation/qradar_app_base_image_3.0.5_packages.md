@@ -21,13 +21,13 @@ These are the packages in the base image listed by the `pip list` command.
         <td>asn1crypto</td>
         <td>1.3.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>attrs</td>
         <td>19.3.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>Babel</td>
@@ -39,7 +39,7 @@ These are the packages in the base image listed by the `pip list` command.
         <td>certifi</td>
         <td>2019.11.28</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>cffi</td>
@@ -57,13 +57,13 @@ These are the packages in the base image listed by the `pip list` command.
         <td>click</td>
         <td>8.0.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>cookies</td>
         <td>2.2.1</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>cryptography</td>
@@ -75,19 +75,19 @@ These are the packages in the base image listed by the `pip list` command.
         <td>dnspython</td>
         <td>1.16.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>enum34</td>
         <td>1.1.6</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>Flask</td>
         <td>1.1.1</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>idna</td>
@@ -99,19 +99,19 @@ These are the packages in the base image listed by the `pip list` command.
         <td>importlib-metadata</td>
         <td>1.3.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>ipaddress</td>
         <td>1.0.23</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>itsdangerous</td>
         <td>1.1.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>Jinja2</td>
@@ -123,7 +123,7 @@ These are the packages in the base image listed by the `pip list` command.
         <td>jsonschema</td>
         <td>3.2.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>MarkupSafe</td>
@@ -135,25 +135,25 @@ These are the packages in the base image listed by the `pip list` command.
         <td>more-itertools</td>
         <td>8.0.2</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>ordereddict</td>
         <td>1.1</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>packaging</td>
         <td>19.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>pip</td>
         <td>22.3</td>
         <td>22.1.2</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>ply</td>
@@ -177,13 +177,13 @@ These are the packages in the base image listed by the `pip list` command.
         <td>pyOpenSSL</td>
         <td>19.1.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>pyparsing</td>
         <td>2.4.6</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>pyrsistent</td>
@@ -207,7 +207,7 @@ These are the packages in the base image listed by the `pip list` command.
         <td>qpylib</td>
         <td>2.0.6</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>requests</td>
@@ -231,7 +231,7 @@ These are the packages in the base image listed by the `pip list` command.
         <td>supervisor</td>
         <td>4.1.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>urllib3</td>
@@ -243,13 +243,13 @@ These are the packages in the base image listed by the `pip list` command.
         <td>Werkzeug</td>
         <td>1.0.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>zipp</td>
         <td>0.6.0</td>
         <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
     </tbody>
 </table>
