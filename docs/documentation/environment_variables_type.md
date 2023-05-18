@@ -74,7 +74,7 @@ automatically by QRadar and are available to use in your app.
             <td>The console FQDN.</td>
         </tr>
         <tr>
-            <td>QRADAR_CONSOLE_HOST_NAME</td>
+            <td>QRADAR_CONSOLE_HOSTNAME</td>
             <td>The host name of the QRadar console.</td>
         </tr>
         <tr>
