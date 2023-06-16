@@ -500,14 +500,12 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>gpg-pubkey</td>
         <td>fd431d51-4ae0493b</td>
-        <td>fd431d51-4ae0493b
-d4082792-5b32db75</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>gpg-pubkey</td>
         <td>d4082792-5b32db75</td>
-        <td>fd431d51-4ae0493b
-d4082792-5b32db75</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>gpgme</td>

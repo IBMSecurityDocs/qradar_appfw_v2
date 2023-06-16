@@ -21,14 +21,19 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
     </thead>
     <tbody>
         <tr>
+            <td>3.0.10</td>
+            <td>7.5.0 UP6</td>
+            <td>2.1.4</td>
+        </tr>
+        <tr>
             <td>3.0.9</td>
             <td>7.5.0 UP5, 7.4.3 FP9</td>
-            <td></td>
+            <td>2.1.3</td>
         </tr>
         <tr>
             <td>3.0.5</td>
             <td>7.5.0 UP4, 7.4.3 FP8</td>
-            <td></td>
+            <td>2.1.2</td>
         </tr>
         <tr>
             <td>3.0.1</td>
@@ -41,14 +46,19 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
             <td>2.1.1</td>
         </tr>
         <tr>
+            <td>2.1.17</td>
+            <td>7.5.0 UP6</td>
+            <td>2.1.4</td>
+        </tr>
+        <tr>
             <td>2.1.16</td>
             <td>7.5.0 UP5, 7.4.3 FP9</td>
-            <td></td>
+            <td>2.1.3</td>
         </tr>
         <tr>
             <td>2.1.12</td>
             <td>7.5.0 UP4, 7.4.3 FP8</td>
-            <td></td>
+            <td>2.1.2</td>
         </tr>
         <tr>
             <td>2.1.8</td>
@@ -83,6 +93,11 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
     </tbody>
 </table>
 
+## 3.0.10
+
+- Upgraded packages to resolve security vulnerabilities.
+- Upgraded to `qpylib` `2.0.7`.
+
 ## 3.0.9
 
 - Upgraded packages to resolve security vulnerabilities.
@@ -111,6 +126,11 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
 
 - New qradar-app-base image release stream, uses Python 3.8.
 - Python packages switched to Python 3.8 versions.
+
+## 2.1.17
+
+- Upgraded packages to resolve security vulnerabilities.
+- Upgraded to `qpylib` `2.0.7`.
 
 ## 2.1.16
 

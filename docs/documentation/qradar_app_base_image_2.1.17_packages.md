@@ -1,7 +1,7 @@
-# QRadar app base image 2.1.3 packages
+# QRadar app base image 2.1.17 packages
 
 This page details every package that is installed in the `qradar-app-base` image. This page lists only the dependencies
-for version `2.1.3` of the base image.
+for version `2.1.17` of the base image.
 
 ## Python packages
 
@@ -12,7 +12,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <th>Package</th>
         <th>Version</th>
-        <th>Version in 2.0.5</th>
+        <th>Version in 2.1.16</th>
         <th>Package Source</th>
       </tr>
     </thead>
@@ -32,19 +32,19 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>Babel</td>
         <td>2.5.1</td>
-        <td>Newly added</td>
+        <td>No change</td>
         <td>Red Hat</td>
       </tr>
       <tr>
         <td>certifi</td>
+        <td>2022.12.7</td>
         <td>2019.11.28</td>
-        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
         <td>cffi</td>
         <td>1.11.5</td>
-        <td>1.13.2</td>
+        <td>No change</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -55,13 +55,13 @@ These are the packages in the base image listed by the `pip list` command.
       </tr>
       <tr>
         <td>charset-normalizer</td>
-        <td>2.0.4</td>
-        <td>Newly added</td>
+        <td>2.0.12</td>
+        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
-        <td>Click</td>
-        <td>7.0</td>
+        <td>click</td>
+        <td>8.0.0</td>
         <td>No change</td>
         <td>PyPI</td>
       </tr>
@@ -74,7 +74,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>cryptography</td>
         <td>3.2.1</td>
-        <td>2.8</td>
+        <td>No change</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -98,7 +98,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>idna</td>
         <td>2.5</td>
-        <td>2.8</td>
+        <td>No change</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -122,7 +122,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>Jinja2</td>
         <td>2.10.1</td>
-        <td>2.11.1</td>
+        <td>No change</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -157,20 +157,20 @@ These are the packages in the base image listed by the `pip list` command.
       </tr>
       <tr>
         <td>pip</td>
-        <td>21.2.3</td>
-        <td>21.0.1</td>
+        <td>21.3.1</td>
+        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
         <td>ply</td>
         <td>3.9</td>
-        <td>Newly added</td>
+        <td>No change</td>
         <td>Red Hat</td>
       </tr>
       <tr>
         <td>pycparser</td>
         <td>2.14</td>
-        <td>2.19</td>
+        <td>No change</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -200,25 +200,25 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>PySocks</td>
         <td>1.6.8</td>
-        <td>1.7.1</td>
+        <td>No change</td>
         <td>Red Hat</td>
       </tr>
       <tr>
         <td>pytz</td>
         <td>2017.2</td>
-        <td>Newly added</td>
+        <td>No change</td>
         <td>Red Hat</td>
       </tr>
       <tr>
         <td>qpylib</td>
+        <td>2.0.7</td>
         <td>2.0.6</td>
-        <td>2.0.3</td>
         <td>PyPI</td>
       </tr>
       <tr>
         <td>requests</td>
-        <td>2.26.0</td>
-        <td>2.22.0</td>
+        <td>2.27.1</td>
+        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -230,7 +230,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>six</td>
         <td>1.11.0</td>
-        <td>1.14.0</td>
+        <td>No change</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -242,7 +242,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>urllib3</td>
         <td>1.24.2</td>
-        <td>1.25.8</td>
+        <td>No change</td>
         <td>Red Hat</td>
       </tr>
       <tr>
@@ -269,7 +269,7 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <th>Package</th>
         <th>Version</th>
-        <th>Version in 2.0.5</th>
+        <th>Version in 2.1.16</th>
       </tr>
     </thead>
     <tbody>
@@ -280,7 +280,7 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>audit-libs</td>
-        <td>3.0-0.17.20191104git1c2f876.el8</td>
+        <td>3.0.7-4.el8</td>
         <td>No change</td>
       </tr>
       <tr>
@@ -290,13 +290,13 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>bash</td>
-        <td>4.4.20-1.el8_4</td>
-        <td>4.4.19-10.el8</td>
+        <td>4.4.20-4.el8_6</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>brotli</td>
         <td>1.0.6-3.el8</td>
-        <td>1.0.6-1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>bzip2-libs</td>
@@ -305,23 +305,23 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>ca-certificates</td>
-        <td>2020.2.41-80.0.el8_2</td>
-        <td>2019.2.32-80.0.el8_1</td>
+        <td>2022.2.54-80.2.el8_6</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>chkconfig</td>
-        <td>1.13-2.el8</td>
-        <td>1.11-1.el8</td>
+        <td>1.19.1-1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>coreutils-single</td>
-        <td>8.30-8.el8</td>
-        <td>8.30-6.el8_1.1</td>
+        <td>8.30-13.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>cpio</td>
-        <td>2.12-10.el8</td>
-        <td>2.12-8.el8</td>
+        <td>2.12-11.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>cracklib</td>
@@ -335,63 +335,63 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>crypto-policies</td>
-        <td>20210209-1.gitbfb6bed.el8_3</td>
-        <td>20191128-2.git23e1bf1.el8</td>
+        <td>20211116-1.gitae470d6.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>crypto-policies-scripts</td>
-        <td>20210209-1.gitbfb6bed.el8_3</td>
-        <td>Newly added</td>
+        <td>20211116-1.gitae470d6.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>cryptsetup-libs</td>
-        <td>2.3.3-4.el8</td>
-        <td>2.3.3-2.el8</td>
+        <td>2.3.7-2.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>curl</td>
-        <td>7.61.1-18.el8</td>
-        <td>7.61.1-12.el8</td>
+        <td>7.61.1-25.el8_7.3</td>
+        <td>7.61.1-25.el8_7.1</td>
       </tr>
       <tr>
         <td>cyrus-sasl-lib</td>
-        <td>2.1.27-5.el8</td>
-        <td>2.1.27-1.el8</td>
+        <td>2.1.27-6.el8_5</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>dbus</td>
-        <td>1.12.8-12.el8_4.2</td>
-        <td>1.12.8-11.el8</td>
+        <td>1.12.8-23.el8_7.1</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-common</td>
-        <td>1.12.8-12.el8_4.2</td>
-        <td>1.12.8-11.el8</td>
+        <td>1.12.8-23.el8_7.1</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-daemon</td>
-        <td>1.12.8-12.el8_4.2</td>
-        <td>1.12.8-11.el8</td>
+        <td>1.12.8-23.el8_7.1</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-libs</td>
-        <td>1.12.8-12.el8_4.2</td>
-        <td>1.12.8-11.el8</td>
+        <td>1.12.8-23.el8_7.1</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-tools</td>
-        <td>1.12.8-12.el8_4.2</td>
-        <td>1.12.8-11.el8</td>
+        <td>1.12.8-23.el8_7.1</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>device-mapper</td>
-        <td>1.02.175-5.el8</td>
-        <td>1.02.171-5.el8</td>
+        <td>1.02.181-6.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>device-mapper-libs</td>
-        <td>1.02.175-5.el8</td>
-        <td>1.02.171-5.el8</td>
+        <td>1.02.181-6.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>diffutils</td>
@@ -400,38 +400,38 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>dracut</td>
-        <td>049-135.git20210121.el8</td>
-        <td>049-95.git20200804.el8</td>
+        <td>049-218.git20221019.el8_7</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>elfutils-default-yama-scope</td>
-        <td>0.182-3.el8</td>
-        <td>0.180-1.el8</td>
+        <td>0.187-4.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>elfutils-libelf</td>
-        <td>0.182-3.el8</td>
-        <td>0.180-1.el8</td>
+        <td>0.187-4.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>elfutils-libs</td>
-        <td>0.182-3.el8</td>
-        <td>0.180-1.el8</td>
+        <td>0.187-4.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>expat</td>
-        <td>2.2.5-4.el8</td>
-        <td>2.2.5-3.el8</td>
+        <td>2.2.5-10.el8_7.1</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>file-libs</td>
-        <td>5.33-16.el8_3.1</td>
-        <td>Newly added</td>
+        <td>5.33-21.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>filesystem</td>
-        <td>3.8-3.el8</td>
-        <td>3.8-2.el8</td>
+        <td>3.8-6.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>findutils</td>
@@ -440,48 +440,48 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>gawk</td>
-        <td>4.2.1-2.el8</td>
-        <td>4.2.1-1.el8</td>
+        <td>4.2.1-4.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>gdbm</td>
-        <td>1.18-1.el8</td>
+        <td>1.18-2.el8</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>gdbm-libs</td>
-        <td>1.18-1.el8</td>
+        <td>1.18-2.el8</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>glib2</td>
-        <td>2.56.4-10.el8_4</td>
-        <td>2.56.4-8.el8</td>
+        <td>2.56.4-159.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>glibc</td>
-        <td>2.28-151.el8</td>
-        <td>2.28-127.el8</td>
+        <td>2.28-211.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>glibc-common</td>
-        <td>2.28-151.el8</td>
-        <td>2.28-127.el8</td>
+        <td>2.28-211.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>glibc-langpack-en</td>
-        <td>2.28-151.el8</td>
-        <td>2.28-127.el8</td>
+        <td>2.28-211.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>glibc-locale-source</td>
-        <td>2.28-151.el8</td>
-        <td>2.28-127.el8</td>
+        <td>2.28-211.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>glibc-minimal-langpack</td>
-        <td>2.28-151.el8</td>
-        <td>2.28-127.el8</td>
+        <td>2.28-211.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>gmp</td>
@@ -490,13 +490,13 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>gnupg2</td>
-        <td>2.2.20-2.el8</td>
-        <td>2.2.9-1.el8</td>
+        <td>2.2.20-3.el8_6</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>gnutls</td>
-        <td>3.6.14-8.el8_3</td>
-        <td>3.6.8-10.el8_2</td>
+        <td>3.6.16-6.el8_7</td>
+        <td>3.6.16-5.el8_6</td>
       </tr>
       <tr>
         <td>gobject-introspection</td>
@@ -515,8 +515,8 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>gpgme</td>
-        <td>1.13.1-7.el8</td>
-        <td>1.10.0-6.el8</td>
+        <td>1.13.1-11.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>grep</td>
@@ -525,8 +525,8 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>gzip</td>
-        <td>1.9-12.el8</td>
-        <td>1.9-9.el8</td>
+        <td>1.9-13.el8_5</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>hardlink</td>
@@ -534,24 +534,14 @@ These are the packages in the base image listed by the `rpm -qa` command.
         <td>No change</td>
       </tr>
       <tr>
-        <td>hwdata</td>
-        <td>0.314-8.8.el8</td>
-        <td>Newly added</td>
-      </tr>
-      <tr>
         <td>info</td>
-        <td>6.5-6.el8</td>
+        <td>6.5-7.el8</td>
         <td>No change</td>
       </tr>
       <tr>
-        <td>iptables-libs</td>
-        <td>1.8.4-17.el8</td>
-        <td>1.8.4-15.el8_3.3</td>
-      </tr>
-      <tr>
         <td>json-c</td>
-        <td>0.13.1-0.4.el8</td>
-        <td>0.13.1-0.2.el8</td>
+        <td>0.13.1-3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>json-glib</td>
@@ -575,28 +565,28 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>keyutils-libs</td>
-        <td>1.5.10-6.el8</td>
+        <td>1.5.10-9.el8</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>kmod</td>
-        <td>25-17.el8</td>
-        <td>25-16.el8</td>
+        <td>25-19.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>kmod-libs</td>
-        <td>25-17.el8</td>
-        <td>25-16.el8</td>
+        <td>25-19.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>kpartx</td>
-        <td>0.8.4-10.el8</td>
-        <td>0.8.4-5.el8</td>
+        <td>0.8.4-28.el8_7.3</td>
+        <td>0.8.4-28.el8_7.1</td>
       </tr>
       <tr>
         <td>krb5-libs</td>
-        <td>1.18.2-8.el8</td>
-        <td>1.17-18.el8</td>
+        <td>1.18.2-22.el8_7</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>langpacks-en</td>
@@ -610,8 +600,8 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libarchive</td>
-        <td>3.3.3-1.el8</td>
-        <td>3.3.2-8.el8_1</td>
+        <td>3.3.3-4.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libassuan</td>
@@ -625,73 +615,68 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libblkid</td>
-        <td>2.32.1-27.el8</td>
-        <td>2.32.1-24.el8</td>
+        <td>2.32.1-39.el8_7</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libcap</td>
-        <td>2.26-4.el8</td>
-        <td>2.26-3.el8</td>
+        <td>2.48-4.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libcap-ng</td>
-        <td>0.7.9-5.el8</td>
+        <td>0.7.11-1.el8</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>libcom_err</td>
-        <td>1.45.6-1.el8</td>
-        <td>1.45.4-3.el8</td>
+        <td>1.45.6-5.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libcurl</td>
-        <td>7.61.1-18.el8</td>
-        <td>7.61.1-12.el8</td>
+        <td>7.61.1-25.el8_7.3</td>
+        <td>7.61.1-25.el8_7.1</td>
       </tr>
       <tr>
         <td>libdb</td>
-        <td>5.3.28-40.el8</td>
-        <td>5.3.28-37.el8</td>
+        <td>5.3.28-42.el8_4</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libdb-utils</td>
-        <td>5.3.28-40.el8</td>
-        <td>5.3.28-37.el8</td>
+        <td>5.3.28-42.el8_4</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libdnf</td>
-        <td>0.55.0-7.el8</td>
-        <td>0.39.1-5.el8</td>
+        <td>0.63.0-11.1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libfdisk</td>
-        <td>2.32.1-27.el8</td>
-        <td>2.32.1-24.el8</td>
+        <td>2.32.1-39.el8_7</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libffi</td>
-        <td>3.1-22.el8</td>
-        <td>3.1-21.el8</td>
+        <td>3.1-23.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libgcc</td>
-        <td>8.4.1-1.el8</td>
-        <td>8.3.1-5.el8</td>
+        <td>8.5.0-16.el8_7</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libgcrypt</td>
-        <td>1.8.5-4.el8</td>
-        <td>1.8.3-4.el8</td>
+        <td>1.8.5-7.el8_6</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libgpg-error</td>
         <td>1.31-1.el8</td>
         <td>No change</td>
-      </tr>
-      <tr>
-        <td>libibverbs</td>
-        <td>32.0-4.el8</td>
-        <td>Newly added</td>
       </tr>
       <tr>
         <td>libidn2</td>
@@ -710,43 +695,28 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libksba</td>
-        <td>1.3.5-7.el8</td>
-        <td>No change</td>
-      </tr>
-      <tr>
-        <td>libmetalink</td>
-        <td>0.1.3-7.el8</td>
-        <td>No change</td>
+        <td>1.3.5-9.el8_7</td>
+        <td>1.3.5-8.el8_6</td>
       </tr>
       <tr>
         <td>libmodulemd</td>
-        <td>2.9.4-2.el8</td>
-        <td>Newly added</td>
+        <td>2.13.0-1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libmount</td>
-        <td>2.32.1-27.el8</td>
-        <td>2.32.1-24.el8</td>
+        <td>2.32.1-39.el8_7</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libnghttp2</td>
         <td>1.33.0-3.el8_2.1</td>
-        <td>1.33.0-1.el8_0.1</td>
-      </tr>
-      <tr>
-        <td>libnl3</td>
-        <td>3.5.0-1.el8</td>
-        <td>Newly added</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libnsl2</td>
         <td>1.2.0-2.20180605git4a062cf.el8</td>
         <td>No change</td>
-      </tr>
-      <tr>
-        <td>libpcap</td>
-        <td>1.9.1-5.el8</td>
-        <td>1.9.1-4.el8</td>
       </tr>
       <tr>
         <td>libpeas</td>
@@ -756,42 +726,42 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>libpsl</td>
         <td>0.20.2-6.el8</td>
-        <td>0.20.2-5.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libpwquality</td>
-        <td>1.4.4-3.el8</td>
-        <td>1.4.0-9.el8</td>
+        <td>1.4.4-5.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>librepo</td>
-        <td>1.12.0-3.el8</td>
-        <td>1.11.0-2.el8</td>
+        <td>1.14.2-3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>librhsm</td>
         <td>0.0.3-4.el8</td>
-        <td>0.0.3-3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libseccomp</td>
-        <td>2.5.1-1.el8</td>
-        <td>2.4.3-1.el8</td>
+        <td>2.5.2-1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libselinux</td>
-        <td>2.9-5.el8</td>
-        <td>2.9-3.el8</td>
+        <td>2.9-6.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libsemanage</td>
-        <td>2.9-6.el8</td>
-        <td>2.9-3.el8</td>
+        <td>2.9-9.el8_6</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libsepol</td>
-        <td>2.9-2.el8</td>
-        <td>2.9-1.el8</td>
+        <td>2.9-3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libsigsegv</td>
@@ -800,37 +770,37 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libsmartcols</td>
-        <td>2.32.1-27.el8</td>
-        <td>2.32.1-24.el8</td>
+        <td>2.32.1-39.el8_7</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libsolv</td>
-        <td>0.7.16-2.el8</td>
-        <td>0.7.7-1.el8</td>
+        <td>0.7.20-4.el8_7</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libssh</td>
-        <td>0.9.4-2.el8</td>
-        <td>0.9.0-4.el8</td>
+        <td>0.9.6-3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libssh-config</td>
-        <td>0.9.4-2.el8</td>
-        <td>0.9.0-4.el8</td>
+        <td>0.9.6-3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libstdc++</td>
-        <td>8.4.1-1.el8</td>
-        <td>8.3.1-5.el8</td>
+        <td>8.5.0-16.el8_7</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libtasn1</td>
-        <td>4.13-3.el8</td>
+        <td>4.13-4.el8_7</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>libtirpc</td>
-        <td>1.1.4-4.el8</td>
+        <td>1.1.4-8.el8</td>
         <td>No change</td>
       </tr>
       <tr>
@@ -841,11 +811,11 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>libusbx</td>
         <td>1.0.23-4.el8</td>
-        <td>1.0.22-1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libuser</td>
-        <td>0.62-23.el8</td>
+        <td>0.62-24.el8</td>
         <td>No change</td>
       </tr>
       <tr>
@@ -855,17 +825,17 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libuuid</td>
-        <td>2.32.1-27.el8</td>
-        <td>2.32.1-24.el8</td>
+        <td>2.32.1-39.el8_7</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libverto</td>
-        <td>0.3.0-5.el8</td>
+        <td>0.3.2-2.el8</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>libxcrypt</td>
-        <td>4.1.1-4.el8</td>
+        <td>4.1.1-6.el8</td>
         <td>No change</td>
       </tr>
       <tr>
@@ -875,8 +845,8 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libxml2</td>
-        <td>2.9.7-9.el8_4.2</td>
-        <td>2.9.7-7.el8</td>
+        <td>2.9.7-15.el8_7.1</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libyaml</td>
@@ -886,22 +856,22 @@ These are the packages in the base image listed by the `rpm -qa` command.
       <tr>
         <td>libzstd</td>
         <td>1.4.4-1.el8</td>
-        <td>1.4.2-2.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>lua-libs</td>
-        <td>5.3.4-11.el8</td>
+        <td>5.3.4-12.el8</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>lz4-libs</td>
         <td>1.8.3-3.el8_4</td>
-        <td>1.8.1.2-4.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>microdnf</td>
-        <td>3.4.0-4.el8</td>
-        <td>3.0.1-8.el8</td>
+        <td>3.8.0-2.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>mpfr</td>
@@ -910,18 +880,18 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>ncurses-base</td>
-        <td>6.1-7.20180224.el8</td>
+        <td>6.1-9.20180224.el8</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>ncurses-libs</td>
-        <td>6.1-7.20180224.el8</td>
+        <td>6.1-9.20180224.el8</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>nettle</td>
-        <td>3.4.1-4.el8_3</td>
-        <td>3.4.1-1.el8</td>
+        <td>3.4.1-7.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>npth</td>
@@ -930,58 +900,48 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>openldap</td>
-        <td>2.4.46-17.el8_4</td>
-        <td>2.4.46-11.el8</td>
+        <td>2.4.46-18.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>openssl</td>
-        <td>1.1.1g-15.el8_3</td>
-        <td>1.1.1g-12.el8_3</td>
+        <td>1.1.1k-9.el8_7</td>
+        <td>1.1.1k-7.el8_6</td>
       </tr>
       <tr>
         <td>openssl-libs</td>
-        <td>1.1.1g-15.el8_3</td>
-        <td>1.1.1g-12.el8_3</td>
+        <td>1.1.1k-9.el8_7</td>
+        <td>1.1.1k-7.el8_6</td>
       </tr>
       <tr>
         <td>p11-kit</td>
         <td>0.23.22-1.el8</td>
-        <td>0.23.14-5.el8_0</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>p11-kit-trust</td>
         <td>0.23.22-1.el8</td>
-        <td>0.23.14-5.el8_0</td>
-      </tr>
-      <tr>
-        <td>pam</td>
-        <td>1.3.1-14.el8</td>
-        <td>1.3.1-11.el8</td>
-      </tr>
-      <tr>
-        <td>passwd</td>
-        <td>0.80-3.el8</td>
         <td>No change</td>
       </tr>
       <tr>
-        <td>pciutils</td>
-        <td>3.7.0-1.el8</td>
-        <td>Newly added</td>
+        <td>pam</td>
+        <td>1.3.1-22.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
-        <td>pciutils-libs</td>
-        <td>3.7.0-1.el8</td>
-        <td>Newly added</td>
+        <td>passwd</td>
+        <td>0.80-4.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>pcre</td>
-        <td>8.42-4.el8</td>
+        <td>8.42-6.el8</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>pcre2</td>
-        <td>10.32-2.el8</td>
-        <td>10.32-1.el8</td>
+        <td>10.32-3.el8_6</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>pigz</td>
@@ -990,28 +950,28 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>platform-python</td>
-        <td>3.6.8-37.el8</td>
-        <td>3.6.8-23.el8</td>
+        <td>3.6.8-48.el8_7.1</td>
+        <td>3.6.8-48.el8_7</td>
       </tr>
       <tr>
         <td>platform-python-pip</td>
-        <td>9.0.3-19.el8</td>
-        <td>9.0.3-18.el8</td>
+        <td>9.0.3-22.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>platform-python-setuptools</td>
+        <td>39.2.0-6.el8_7.1</td>
         <td>39.2.0-6.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>popt</td>
         <td>1.18-1.el8</td>
-        <td>1.16-14.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>procps-ng</td>
-        <td>3.3.15-6.el8</td>
-        <td>3.3.15-3.el8</td>
+        <td>3.3.15-9.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>publicsuffix-list-dafsa</td>
@@ -1020,108 +980,103 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>python3-babel</td>
-        <td>2.5.1-5.el8</td>
-        <td>Newly added</td>
+        <td>2.5.1-7.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-cffi</td>
         <td>1.11.5-5.el8</td>
-        <td>Newly added</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-chardet</td>
         <td>3.0.4-7.el8</td>
-        <td>Newly added</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-cryptography</td>
-        <td>3.2.1-4.el8</td>
-        <td>Newly added</td>
+        <td>3.2.1-5.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-idna</td>
         <td>2.5-5.el8</td>
-        <td>Newly added</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-jinja2</td>
-        <td>2.10.1-2.el8_0</td>
-        <td>Newly added</td>
+        <td>2.10.1-3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-libs</td>
-        <td>3.6.8-37.el8</td>
-        <td>3.6.8-23.el8</td>
+        <td>3.6.8-48.el8_7.1</td>
+        <td>3.6.8-48.el8_7</td>
       </tr>
       <tr>
         <td>python3-markupsafe</td>
         <td>0.23-19.el8</td>
-        <td>Newly added</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-pip</td>
-        <td>9.0.3-19.el8</td>
-        <td>9.0.3-18.el8</td>
+        <td>9.0.3-22.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-pip-wheel</td>
-        <td>9.0.3-19.el8</td>
-        <td>9.0.3-16.el8</td>
+        <td>9.0.3-22.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-ply</td>
         <td>3.9-9.el8</td>
-        <td>Newly added</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-pycparser</td>
         <td>2.14-14.el8</td>
-        <td>Newly added</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-pysocks</td>
         <td>1.6.8-3.el8</td>
-        <td>Newly added</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-pytz</td>
         <td>2017.2-9.el8</td>
-        <td>Newly added</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-requests</td>
         <td>2.20.0-2.1.el8_1</td>
-        <td>Newly added</td>
-      </tr>
-      <tr>
-        <td>python3-setuptools</td>
-        <td>39.2.0-6.el8</td>
         <td>No change</td>
       </tr>
       <tr>
-        <td>python3-setuptools-wheel</td>
+        <td>python3-setuptools</td>
+        <td>39.2.0-6.el8_7.1</td>
         <td>39.2.0-6.el8</td>
-        <td>39.2.0-5.el8</td>
+      </tr>
+      <tr>
+        <td>python3-setuptools-wheel</td>
+        <td>39.2.0-6.el8_7.1</td>
+        <td>39.2.0-6.el8</td>
       </tr>
       <tr>
         <td>python3-six</td>
         <td>1.11.0-8.el8</td>
-        <td>Newly added</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-urllib3</td>
         <td>1.24.2-5.el8</td>
-        <td>Newly added</td>
-      </tr>
-      <tr>
-        <td>python36</td>
-        <td>3.6.8-2.module+el8.1.0+3334+5cb623d7</td>
         <td>No change</td>
       </tr>
       <tr>
-        <td>rdma-core</td>
-        <td>32.0-4.el8</td>
-        <td>Newly added</td>
+        <td>python36</td>
+        <td>3.6.8-38.module+el8.5.0+12207+5c5719bc</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>readline</td>
@@ -1130,8 +1085,8 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>redhat-release</td>
-        <td>8.4-0.6.el8</td>
-        <td>8.2-1.0.el8</td>
+        <td>8.7-0.3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>rootfiles</td>
@@ -1140,77 +1095,77 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>rpm</td>
-        <td>4.14.3-14.el8_4</td>
-        <td>4.14.2-37.el8</td>
-      </tr>
-      <tr>
-        <td>rpm-libs</td>
-        <td>4.14.3-14.el8_4</td>
-        <td>4.14.2-37.el8</td>
-      </tr>
-      <tr>
-        <td>sed</td>
-        <td>4.5-2.el8</td>
-        <td>4.5-1.el8</td>
-      </tr>
-      <tr>
-        <td>setup</td>
-        <td>2.12.2-6.el8</td>
-        <td>2.12.2-5.el8</td>
-      </tr>
-      <tr>
-        <td>shadow-utils</td>
-        <td>4.6-12.el8</td>
-        <td>4.6-11.el8</td>
-      </tr>
-      <tr>
-        <td>sqlite</td>
-        <td>3.26.0-13.el8</td>
-        <td>3.26.0-11.el8</td>
-      </tr>
-      <tr>
-        <td>sqlite-libs</td>
-        <td>3.26.0-13.el8</td>
-        <td>3.26.0-11.el8</td>
-      </tr>
-      <tr>
-        <td>sudo</td>
-        <td>1.8.29-7.el8</td>
-        <td>1.8.29-6.el8_3.1</td>
-      </tr>
-      <tr>
-        <td>systemd</td>
-        <td>239-45.el8_4.2</td>
-        <td>239-41.el8_3.1</td>
-      </tr>
-      <tr>
-        <td>systemd-libs</td>
-        <td>239-45.el8_4.2</td>
-        <td>239-41.el8_3.1</td>
-      </tr>
-      <tr>
-        <td>systemd-pam</td>
-        <td>239-45.el8_4.2</td>
-        <td>239-41.el8_3.1</td>
-      </tr>
-      <tr>
-        <td>systemd-udev</td>
-        <td>239-45.el8_4.2</td>
-        <td>239-41.el8_3.1</td>
-      </tr>
-      <tr>
-        <td>tzdata</td>
-        <td>2021a-1.el8</td>
+        <td>4.14.3-24.el8_7</td>
         <td>No change</td>
       </tr>
       <tr>
+        <td>rpm-libs</td>
+        <td>4.14.3-24.el8_7</td>
+        <td>No change</td>
+      </tr>
+      <tr>
+        <td>sed</td>
+        <td>4.5-5.el8</td>
+        <td>No change</td>
+      </tr>
+      <tr>
+        <td>setup</td>
+        <td>2.12.2-7.el8</td>
+        <td>No change</td>
+      </tr>
+      <tr>
+        <td>shadow-utils</td>
+        <td>4.6-17.el8</td>
+        <td>No change</td>
+      </tr>
+      <tr>
+        <td>sqlite</td>
+        <td>3.26.0-17.el8_7</td>
+        <td>No change</td>
+      </tr>
+      <tr>
+        <td>sqlite-libs</td>
+        <td>3.26.0-17.el8_7</td>
+        <td>No change</td>
+      </tr>
+      <tr>
+        <td>sudo</td>
+        <td>1.8.29-8.el8_7.1</td>
+        <td>No change</td>
+      </tr>
+      <tr>
+        <td>systemd</td>
+        <td>239-68.el8_7.4</td>
+        <td>239-68.el8_7.2</td>
+      </tr>
+      <tr>
+        <td>systemd-libs</td>
+        <td>239-68.el8_7.4</td>
+        <td>239-68.el8_7.2</td>
+      </tr>
+      <tr>
+        <td>systemd-pam</td>
+        <td>239-68.el8_7.4</td>
+        <td>239-68.el8_7.2</td>
+      </tr>
+      <tr>
+        <td>systemd-udev</td>
+        <td>239-68.el8_7.4</td>
+        <td>239-68.el8_7.2</td>
+      </tr>
+      <tr>
+        <td>tzdata</td>
+        <td>2023c-1.el8</td>
+        <td>2022g-1.el8</td>
+      </tr>
+      <tr>
         <td>util-linux</td>
-        <td>2.32.1-27.el8</td>
-        <td>2.32.1-24.el8</td>
+        <td>2.32.1-39.el8_7</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>vim-minimal</td>
-        <td>8.0.1763-15.el8</td>
+        <td>8.0.1763-19.el8_6.4</td>
         <td>No change</td>
       </tr>
       <tr>
@@ -1220,18 +1175,18 @@ These are the packages in the base image listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>xz</td>
-        <td>5.2.4-3.el8</td>
+        <td>5.2.4-4.el8_6</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>xz-libs</td>
-        <td>5.2.4-3.el8</td>
+        <td>5.2.4-4.el8_6</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>zlib</td>
-        <td>1.2.11-17.el8</td>
-        <td>1.2.11-13.el8</td>
+        <td>1.2.11-21.el8_7</td>
+        <td>No change</td>
       </tr>
     </tbody>
 </table>
