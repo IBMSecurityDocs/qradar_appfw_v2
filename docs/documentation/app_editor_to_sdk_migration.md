@@ -9,7 +9,7 @@ In order to migrate your application from the QRadar App Editor to the App SDK y
 **Note**: If you do not provide a version, the exported application is set with a default version of 1.0.0.
 3. Click **Export App.**
 
-**2. [Install the latest QRadar App SDK] (../tutorials/installing_the_qradar_app_sdk.md)**
+**2. [Install the latest QRadar App SDK](../tutorials/installing_the_qradar_app_sdk.md)**
 
 **3. Read the documentation provided with the App SDK**
 	
@@ -21,7 +21,6 @@ As stated in the documentation there are two steps to run an application locally
 1. Build an application image, if one does not already exist.
 2. Run a container using the application image.
 
-</p>
 **4. Build an application image for the application using the App SDK**
 
 1. Extract the application zip file you exported from the App Editor in step 1.
