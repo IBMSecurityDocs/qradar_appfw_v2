@@ -13,6 +13,7 @@ They are split into two sections:
   * [Installing the QRadar app SDK](docs/tutorials/installing_the_qradar_app_sdk.md)
   * [Configuring apps running through the SDK to make API calls](docs/tutorials/allowing_apps_running_through_the_sdk_to_make_api_calls.md)
   * [Migrating from app framework V1 to V2](docs/tutorials/migrating_from_app_framework_v1_to_v2.md)
+  * [Migrating an application built with the QRadar App Editor to the App SDK](docs/documentation/app_editor_to_sdk_migration.md)
   * [QRadar app best practices](docs/documentation/qradar_app_best_practices.md)
   * [Creating a Hello World app](docs/tutorials/creating_a_hello_world_app.md)
   * [App upgrades](docs/documentation/app_upgrades.md)
