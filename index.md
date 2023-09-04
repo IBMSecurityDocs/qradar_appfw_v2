@@ -5,7 +5,7 @@ These are the QRadar App Framework docs.
 They are split into two sections:
 
 - Documentation provides QRadar product documentation, outlining how the QRadar App Framework functions.
-- Tutorials provides how to guides and samples for creating apps.
+- Tutorials provides how-to guides and samples for creating apps.
 
 * [QRadar app framework version 2](docs/documentation/qradar_app_sdk_overview.md)
   * [GUI application framework fundamentals](docs/documentation/gui_application_framework_fundamentals.md)
@@ -62,7 +62,7 @@ They are split into two sections:
   * [Universal Base Image automatic upgrade](docs/documentation/universal_base_image_automatic_upgrade.md)
   * [QRadar App Editor documentation](https://ibmsecuritydocs.github.io/qradar_app_editor/)
   * [QRadar app base image changelog](docs/documentation/qradar_app_base_image_changelog.md)
-  * [QRadar app base version 3 and version 2](docs/documentation/qradar_app_base_v3_and_v2.md)
+  * [QRadar app base image streams](docs/documentation/qradar_app_base_streams.md)
   * [QRadar app base image 2.0.4 packages](docs/documentation/qradar_app_base_image_2.0.4_packages.md)
   * [QRadar app base image 2.0.5 packages](docs/documentation/qradar_app_base_image_2.0.5_packages.md)
   * [QRadar app base image 2.1.3 packages](docs/documentation/qradar_app_base_image_2.1.3_packages.md)
@@ -72,8 +72,11 @@ They are split into two sections:
   * [QRadar app base image 2.1.12 packages](docs/documentation/qradar_app_base_image_2.1.12_packages.md)
   * [QRadar app base image 2.1.16 packages](docs/documentation/qradar_app_base_image_2.1.16_packages.md)
   * [QRadar app base image 2.1.17 packages](docs/documentation/qradar_app_base_image_2.1.17_packages.md)
+  * [QRadar app base image 2.1.18 packages](docs/documentation/qradar_app_base_image_2.1.18_packages.md)
   * [QRadar app base image 3.0.0 packages](docs/documentation/qradar_app_base_image_3.0.0_packages.md)
   * [QRadar app base image 3.0.1 packages](docs/documentation/qradar_app_base_image_3.0.1_packages.md)
   * [QRadar app base image 3.0.5 packages](docs/documentation/qradar_app_base_image_3.0.5_packages.md)
   * [QRadar app base image 3.0.9 packages](docs/documentation/qradar_app_base_image_3.0.9_packages.md)
   * [QRadar app base image 3.0.10 packages](docs/documentation/qradar_app_base_image_3.0.10_packages.md)
+  * [QRadar app base image 3.0.11 packages](docs/documentation/qradar_app_base_image_3.0.11_packages.md)
+  * [QRadar app base image 4.0.2 packages](docs/documentation/qradar_app_base_image_4.0.2_packages.md)

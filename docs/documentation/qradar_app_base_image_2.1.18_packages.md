@@ -1,31 +1,25 @@
-# QRadar app base image 2.1.17 packages
+# QRadar app base image 2.1.18 packages
 
-This page shows every package installed in `qradar-app-base` image version `2.1.17`.
+This page shows every package installed in `qradar-app-base` image version `2.1.18`.
 
 ## Python packages
 
-These are the `2.1.17` packages listed by the `pip list` command.
+These are the `2.1.18` packages listed by the `pip list` command.
 
 <table>
     <thead>
       <tr>
         <th>Package</th>
         <th>Version</th>
-        <th>Version in 2.1.16</th>
+        <th>Version in 2.1.17</th>
         <th>Package Source</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>asn1crypto</td>
-        <td>1.3.0</td>
-        <td>No change</td>
-        <td>PyPI</td>
-      </tr>
-      <tr>
         <td>attrs</td>
+        <td>22.2.0</td>
         <td>19.3.0</td>
-        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -37,7 +31,7 @@ These are the `2.1.17` packages listed by the `pip list` command.
       <tr>
         <td>certifi</td>
         <td>2022.12.7</td>
-        <td>2019.11.28</td>
+        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -65,12 +59,6 @@ These are the `2.1.17` packages listed by the `pip list` command.
         <td>PyPI</td>
       </tr>
       <tr>
-        <td>cookies</td>
-        <td>2.2.1</td>
-        <td>No change</td>
-        <td>PyPI</td>
-      </tr>
-      <tr>
         <td>cryptography</td>
         <td>3.2.1</td>
         <td>No change</td>
@@ -83,12 +71,6 @@ These are the `2.1.17` packages listed by the `pip list` command.
         <td>PyPI</td>
       </tr>
       <tr>
-        <td>enum34</td>
-        <td>1.1.6</td>
-        <td>No change</td>
-        <td>PyPI</td>
-      </tr>
-      <tr>
         <td>Flask</td>
         <td>1.1.1</td>
         <td>No change</td>
@@ -96,14 +78,14 @@ These are the `2.1.17` packages listed by the `pip list` command.
       </tr>
       <tr>
         <td>idna</td>
+        <td>2.8</td>
         <td>2.5</td>
-        <td>No change</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>importlib-metadata</td>
+        <td>4.8.3</td>
         <td>1.3.0</td>
-        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -143,15 +125,9 @@ These are the `2.1.17` packages listed by the `pip list` command.
         <td>PyPI</td>
       </tr>
       <tr>
-        <td>ordereddict</td>
-        <td>1.1</td>
-        <td>No change</td>
-        <td>PyPI</td>
-      </tr>
-      <tr>
         <td>packaging</td>
+        <td>21.3</td>
         <td>19.0</td>
-        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -174,8 +150,8 @@ These are the `2.1.17` packages listed by the `pip list` command.
       </tr>
       <tr>
         <td>pycryptodome</td>
+        <td>3.17</td>
         <td>3.9.6</td>
-        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -186,8 +162,8 @@ These are the `2.1.17` packages listed by the `pip list` command.
       </tr>
       <tr>
         <td>pyparsing</td>
+        <td>3.0.9</td>
         <td>2.4.6</td>
-        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -210,8 +186,8 @@ These are the `2.1.17` packages listed by the `pip list` command.
       </tr>
       <tr>
         <td>qpylib</td>
+        <td>2.0.8</td>
         <td>2.0.7</td>
-        <td>2.0.6</td>
         <td>QRadar</td>
       </tr>
       <tr>
@@ -234,8 +210,14 @@ These are the `2.1.17` packages listed by the `pip list` command.
       </tr>
       <tr>
         <td>supervisor</td>
+        <td>4.2.5</td>
         <td>4.1.0</td>
-        <td>No change</td>
+        <td>PyPI</td>
+      </tr>
+      <tr>
+        <td>typing_extensions</td>
+        <td>4.1.1</td>
+        <td>Newly added</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -246,14 +228,14 @@ These are the `2.1.17` packages listed by the `pip list` command.
       </tr>
       <tr>
         <td>Werkzeug</td>
+        <td>1.0.1</td>
         <td>1.0.0</td>
-        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
         <td>zipp</td>
+        <td>3.6.0</td>
         <td>0.6.0</td>
-        <td>No change</td>
         <td>PyPI</td>
       </tr>
     </tbody>
@@ -261,14 +243,14 @@ These are the `2.1.17` packages listed by the `pip list` command.
 
 ## RPM packages
 
-These are the `2.1.17` packages listed by the `rpm -qa` command.
+These are the `2.1.18` packages listed by the `rpm -qa` command.
 
 <table>
     <thead>
       <tr>
         <th>Package</th>
         <th>Version</th>
-        <th>Version in 2.1.16</th>
+        <th>Version in 2.1.17</th>
       </tr>
     </thead>
     <tbody>
@@ -314,8 +296,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>coreutils-single</td>
+        <td>8.30-15.el8</td>
         <td>8.30-13.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>cpio</td>
@@ -334,23 +316,23 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>crypto-policies</td>
+        <td>20221215-1.gitece0092.el8</td>
         <td>20211116-1.gitae470d6.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>crypto-policies-scripts</td>
+        <td>20221215-1.gitece0092.el8</td>
         <td>20211116-1.gitae470d6.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>cryptsetup-libs</td>
+        <td>2.3.7-5.el8</td>
         <td>2.3.7-2.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>curl</td>
+        <td>7.61.1-30.el8_8.2</td>
         <td>7.61.1-25.el8_7.3</td>
-        <td>7.61.1-25.el8_7.1</td>
       </tr>
       <tr>
         <td>cyrus-sasl-lib</td>
@@ -359,38 +341,38 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>dbus</td>
+        <td>1.12.8-24.el8</td>
         <td>1.12.8-23.el8_7.1</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-common</td>
+        <td>1.12.8-24.el8</td>
         <td>1.12.8-23.el8_7.1</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-daemon</td>
+        <td>1.12.8-24.el8</td>
         <td>1.12.8-23.el8_7.1</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-libs</td>
+        <td>1.12.8-24.el8</td>
         <td>1.12.8-23.el8_7.1</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-tools</td>
+        <td>1.12.8-24.el8</td>
         <td>1.12.8-23.el8_7.1</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>device-mapper</td>
+        <td>1.02.181-9.el8</td>
         <td>1.02.181-6.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>device-mapper-libs</td>
+        <td>1.02.181-9.el8</td>
         <td>1.02.181-6.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>diffutils</td>
@@ -399,33 +381,38 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>dracut</td>
+        <td>049-223.git20230119.el8</td>
         <td>049-218.git20221019.el8_7</td>
-        <td>No change</td>
+      </tr>
+      <tr>
+        <td>elfutils-debuginfod-client</td>
+        <td>0.188-3.el8</td>
+        <td>Newly added</td>
       </tr>
       <tr>
         <td>elfutils-default-yama-scope</td>
+        <td>0.188-3.el8</td>
         <td>0.187-4.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>elfutils-libelf</td>
+        <td>0.188-3.el8</td>
         <td>0.187-4.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>elfutils-libs</td>
+        <td>0.188-3.el8</td>
         <td>0.187-4.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>expat</td>
+        <td>2.2.5-11.el8</td>
         <td>2.2.5-10.el8_7.1</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>file-libs</td>
+        <td>5.33-24.el8</td>
         <td>5.33-21.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>filesystem</td>
@@ -454,33 +441,33 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>glib2</td>
+        <td>2.56.4-161.el8</td>
         <td>2.56.4-159.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>glibc</td>
+        <td>2.28-225.el8</td>
         <td>2.28-211.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>glibc-common</td>
+        <td>2.28-225.el8</td>
         <td>2.28-211.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>glibc-langpack-en</td>
+        <td>2.28-225.el8</td>
         <td>2.28-211.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>glibc-locale-source</td>
+        <td>2.28-225.el8</td>
         <td>2.28-211.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>glibc-minimal-langpack</td>
+        <td>2.28-225.el8</td>
         <td>2.28-211.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>gmp</td>
@@ -495,7 +482,7 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       <tr>
         <td>gnutls</td>
         <td>3.6.16-6.el8_7</td>
-        <td>3.6.16-5.el8_6</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>gobject-introspection</td>
@@ -579,13 +566,13 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>kpartx</td>
+        <td>0.8.4-37.el8</td>
         <td>0.8.4-28.el8_7.3</td>
-        <td>0.8.4-28.el8_7.1</td>
       </tr>
       <tr>
         <td>krb5-libs</td>
+        <td>1.18.2-25.el8_8</td>
         <td>1.18.2-22.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>langpacks-en</td>
@@ -599,8 +586,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libarchive</td>
+        <td>3.3.3-5.el8</td>
         <td>3.3.3-4.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libassuan</td>
@@ -614,8 +601,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libblkid</td>
+        <td>2.32.1-42.el8_8</td>
         <td>2.32.1-39.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libcap</td>
@@ -634,8 +621,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libcurl</td>
+        <td>7.61.1-30.el8_8.2</td>
         <td>7.61.1-25.el8_7.3</td>
-        <td>7.61.1-25.el8_7.1</td>
       </tr>
       <tr>
         <td>libdb</td>
@@ -649,23 +636,23 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libdnf</td>
+        <td>0.63.0-14.el8_8</td>
         <td>0.63.0-11.1.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libfdisk</td>
+        <td>2.32.1-42.el8_8</td>
         <td>2.32.1-39.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libffi</td>
+        <td>3.1-24.el8</td>
         <td>3.1-23.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libgcc</td>
+        <td>8.5.0-18.el8</td>
         <td>8.5.0-16.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libgcrypt</td>
@@ -695,7 +682,7 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       <tr>
         <td>libksba</td>
         <td>1.3.5-9.el8_7</td>
-        <td>1.3.5-8.el8_6</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libmodulemd</td>
@@ -704,8 +691,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libmount</td>
+        <td>2.32.1-42.el8_8</td>
         <td>2.32.1-39.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libnghttp2</td>
@@ -729,18 +716,18 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libpwquality</td>
+        <td>1.4.4-6.el8</td>
         <td>1.4.4-5.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>librepo</td>
+        <td>1.14.2-4.el8</td>
         <td>1.14.2-3.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>librhsm</td>
+        <td>0.0.3-5.el8</td>
         <td>0.0.3-4.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libseccomp</td>
@@ -749,8 +736,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libselinux</td>
+        <td>2.9-8.el8</td>
         <td>2.9-6.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libsemanage</td>
@@ -769,28 +756,28 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libsmartcols</td>
+        <td>2.32.1-42.el8_8</td>
         <td>2.32.1-39.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libsolv</td>
+        <td>0.7.20-4.el8</td>
         <td>0.7.20-4.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libssh</td>
+        <td>0.9.6-10.el8_8</td>
         <td>0.9.6-3.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libssh-config</td>
+        <td>0.9.6-10.el8_8</td>
         <td>0.9.6-3.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libstdc++</td>
+        <td>8.5.0-18.el8</td>
         <td>8.5.0-16.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libtasn1</td>
@@ -814,8 +801,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libuser</td>
+        <td>0.62-25.el8</td>
         <td>0.62-24.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libutempter</td>
@@ -824,8 +811,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libuuid</td>
+        <td>2.32.1-42.el8_8</td>
         <td>2.32.1-39.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libverto</td>
@@ -844,8 +831,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libxml2</td>
+        <td>2.9.7-16.el8</td>
         <td>2.9.7-15.el8_7.1</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libyaml</td>
@@ -905,12 +892,12 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       <tr>
         <td>openssl</td>
         <td>1.1.1k-9.el8_7</td>
-        <td>1.1.1k-7.el8_6</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>openssl-libs</td>
         <td>1.1.1k-9.el8_7</td>
-        <td>1.1.1k-7.el8_6</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>p11-kit</td>
@@ -924,8 +911,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>pam</td>
+        <td>1.3.1-25.el8</td>
         <td>1.3.1-22.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>passwd</td>
@@ -949,8 +936,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>platform-python</td>
+        <td>3.6.8-51.el8_8.1</td>
         <td>3.6.8-48.el8_7.1</td>
-        <td>3.6.8-48.el8_7</td>
       </tr>
       <tr>
         <td>platform-python-pip</td>
@@ -959,8 +946,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>platform-python-setuptools</td>
+        <td>39.2.0-7.el8</td>
         <td>39.2.0-6.el8_7.1</td>
-        <td>39.2.0-6.el8</td>
       </tr>
       <tr>
         <td>popt</td>
@@ -969,8 +956,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>procps-ng</td>
+        <td>3.3.15-13.el8</td>
         <td>3.3.15-9.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>publicsuffix-list-dafsa</td>
@@ -998,19 +985,14 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
         <td>No change</td>
       </tr>
       <tr>
-        <td>python3-idna</td>
-        <td>2.5-5.el8</td>
-        <td>No change</td>
-      </tr>
-      <tr>
         <td>python3-jinja2</td>
         <td>2.10.1-3.el8</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>python3-libs</td>
+        <td>3.6.8-51.el8_8.1</td>
         <td>3.6.8-48.el8_7.1</td>
-        <td>3.6.8-48.el8_7</td>
       </tr>
       <tr>
         <td>python3-markupsafe</td>
@@ -1048,19 +1030,14 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
         <td>No change</td>
       </tr>
       <tr>
-        <td>python3-requests</td>
-        <td>2.20.0-2.1.el8_1</td>
-        <td>No change</td>
-      </tr>
-      <tr>
         <td>python3-setuptools</td>
+        <td>39.2.0-7.el8</td>
         <td>39.2.0-6.el8_7.1</td>
-        <td>39.2.0-6.el8</td>
       </tr>
       <tr>
         <td>python3-setuptools-wheel</td>
+        <td>39.2.0-7.el8</td>
         <td>39.2.0-6.el8_7.1</td>
-        <td>39.2.0-6.el8</td>
       </tr>
       <tr>
         <td>python3-six</td>
@@ -1084,8 +1061,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>redhat-release</td>
+        <td>8.8-0.8.el8</td>
         <td>8.7-0.3.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>rootfiles</td>
@@ -1094,13 +1071,13 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>rpm</td>
+        <td>4.14.3-26.el8</td>
         <td>4.14.3-24.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>rpm-libs</td>
+        <td>4.14.3-26.el8</td>
         <td>4.14.3-24.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>sed</td>
@@ -1109,8 +1086,8 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>setup</td>
+        <td>2.12.2-9.el8</td>
         <td>2.12.2-7.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>shadow-utils</td>
@@ -1119,48 +1096,48 @@ These are the `2.1.17` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>sqlite</td>
+        <td>3.26.0-18.el8_8</td>
         <td>3.26.0-17.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>sqlite-libs</td>
+        <td>3.26.0-18.el8_8</td>
         <td>3.26.0-17.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>sudo</td>
+        <td>1.8.29-10.el8</td>
         <td>1.8.29-8.el8_7.1</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>systemd</td>
+        <td>239-74.el8_8.2</td>
         <td>239-68.el8_7.4</td>
-        <td>239-68.el8_7.2</td>
       </tr>
       <tr>
         <td>systemd-libs</td>
+        <td>239-74.el8_8.2</td>
         <td>239-68.el8_7.4</td>
-        <td>239-68.el8_7.2</td>
       </tr>
       <tr>
         <td>systemd-pam</td>
+        <td>239-74.el8_8.2</td>
         <td>239-68.el8_7.4</td>
-        <td>239-68.el8_7.2</td>
       </tr>
       <tr>
         <td>systemd-udev</td>
+        <td>239-74.el8_8.2</td>
         <td>239-68.el8_7.4</td>
-        <td>239-68.el8_7.2</td>
       </tr>
       <tr>
         <td>tzdata</td>
         <td>2023c-1.el8</td>
-        <td>2022g-1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>util-linux</td>
+        <td>2.32.1-42.el8_8</td>
         <td>2.32.1-39.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>vim-minimal</td>

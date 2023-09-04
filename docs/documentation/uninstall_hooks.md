@@ -9,8 +9,7 @@ of the app uninstall process. These uninstall hooks can fit a variety of use cas
 - Deleting data held externally from the app, such as QRadar reference data
 
 > The app uninstall hooks should be used specifically for interacting with resources external to the app, if cleaning
-> up data that is stored in an app consider using the [container cleanup script
-> functionality](./new_features_appfw_v2.md#container-cleanup-script).
+> up data that is stored in an app consider using the [container cleanup script functionality](./new_features_appfw_v2.md).
 
 ## Configuring an uninstall hook
 

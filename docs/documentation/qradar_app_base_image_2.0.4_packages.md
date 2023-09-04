@@ -1,11 +1,10 @@
 # QRadar app base image 2.0.4 packages
 
-This page details every package that is installed in the `qradar-app-base` image. This page lists only the dependencies
-for version `2.0.4` of the base image.
+This page shows every package installed in `qradar-app-base` image version `2.0.4`.
 
 ## Python packages
 
-These are the packages in the base image listed by the `pip list` command.
+These are the `2.0.4` packages listed by the `pip list` command.
 
 <table>
     <thead>
@@ -34,7 +33,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>cffi</td>
         <td>1.13.2</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>chardet</td>
@@ -54,7 +53,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>cryptography</td>
         <td>2.8</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>dnspython</td>
@@ -104,7 +103,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>MarkupSafe</td>
         <td>1.1.1</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>more-itertools</td>
@@ -134,7 +133,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>pycryptodome</td>
         <td>3.9.6</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>pyOpenSSL</td>
@@ -149,7 +148,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>pyrsistent</td>
         <td>0.15.7</td>
-        <td>Red Hat</td>
+        <td>PyPI</td>
       </tr>
       <tr>
         <td>PySocks</td>
@@ -159,7 +158,7 @@ These are the packages in the base image listed by the `pip list` command.
       <tr>
         <td>qpylib</td>
         <td>2.0.3</td>
-        <td>PyPI</td>
+        <td>QRadar</td>
       </tr>
       <tr>
         <td>requests</td>
@@ -201,7 +200,7 @@ These are the packages in the base image listed by the `pip list` command.
 
 ## RPM packages
 
-These are the packages in the base image listed by the `rpm -qa` command.
+These are the `2.0.4` packages listed by the `rpm -qa` command.
 
 <table>
     <thead>

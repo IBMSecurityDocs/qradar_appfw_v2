@@ -12,7 +12,7 @@ In this tutorial, use a syslog header since apps will send events to QRadar via 
 ## Prerequisites
 
 - QRadar App SDK v2
-- [Python](https://www.python.org/downloads/) 3.6.8 or later
+- [Python](https://www.python.org/downloads/) 3.7 or later
 
 ## Considerations
 

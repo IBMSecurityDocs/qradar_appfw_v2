@@ -1,9 +1,9 @@
 # QRadar app base image changelog
 
-This changelog tracks `qradar-app-base` image releases and versions, documentating changes between each release.
+This changelog tracks `qradar-app-base` image versions, documenting changes between versions.
 
-There are two base image release streams, version 3 and version 2, to find out more about the differences between
-these release streams please consult [the QRadar app base version 3 and version 2 page](./qradar_app_base_v3_and_v2.md).
+There are three base image streams with major versions 2, 3, and 4. To find out more about the differences between
+these streams, see the [QRadar app base image streams](./qradar_app_base_streams.md) page.
 
 Each release pulls in any security fixes using patch versions provided by Red Hat.
 
@@ -15,11 +15,21 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
     <thead>
         <tr>
             <th>QRadar app base image version</th>
-            <th>Introduced in QRadar versions</th>
+            <th>Introduced in QRadar version(s)</th>
             <th>Introduced in QRadar App SDK version</th>
         </tr>
     </thead>
     <tbody>
+        <tr>
+            <td>4.0.2</td>
+            <td>7.5.0 UP7</td>
+            <td>2.2.0</td>
+        </tr>
+        <tr>
+            <td>3.0.11</td>
+            <td>7.5.0 UP7</td>
+            <td>2.2.0</td>
+        </tr>
         <tr>
             <td>3.0.10</td>
             <td>7.5.0 UP6</td>
@@ -44,6 +54,11 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
             <td>3.0.0</td>
             <td></td>
             <td>2.1.1</td>
+        </tr>
+        <tr>
+            <td>2.1.18</td>
+            <td>7.5.0 UP7</td>
+            <td>2.2.0</td>
         </tr>
         <tr>
             <td>2.1.17</td>
@@ -93,10 +108,20 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
     </tbody>
 </table>
 
+## 4.0.2
+
+- New qradar-app-base image release stream, uses Python 3.11.
+
+## 3.0.11
+
+- Upgraded packages to resolve security vulnerabilities.
+- Removed redundant Python packages.
+- Updated qpylib version to [2.0.8](https://github.com/IBM/qpylib/releases/tag/2.0.8).
+
 ## 3.0.10
 
 - Upgraded packages to resolve security vulnerabilities.
-- Upgraded to `qpylib` `2.0.7`.
+- Updated qpylib version to [2.0.7](https://github.com/IBM/qpylib/releases/tag/2.0.7).
 
 ## 3.0.9
 
@@ -125,12 +150,17 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
 ## 3.0.0
 
 - New qradar-app-base image release stream, uses Python 3.8.
-- Python packages switched to Python 3.8 versions.
+
+## 2.1.18
+
+- Upgraded packages to resolve security vulnerabilities.
+- Removed redundant Python packages.
+- Updated qpylib version to [2.0.8](https://github.com/IBM/qpylib/releases/tag/2.0.8).
 
 ## 2.1.17
 
 - Upgraded packages to resolve security vulnerabilities.
-- Upgraded to `qpylib` `2.0.7`.
+- Updated qpylib version to [2.0.7](https://github.com/IBM/qpylib/releases/tag/2.0.7).
 
 ## 2.1.16
 
@@ -175,11 +205,11 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
 
 ## 2.1.3
 
-- Upgraded to `qpylib` `2.0.6`.
+- Updated qpylib version to [2.0.6](https://github.com/IBM/qpylib/releases/tag/2.0.6).
 
 ## 2.1.2
 
-- Upgraded to `qpylib` `2.0.5`.
+- Updated qpylib version to [2.0.5](https://github.com/IBM/qpylib/releases/tag/2.0.5).
 
 ## 2.1.1
 
@@ -198,7 +228,7 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
     - `python3-jinja2` - changed from version `2.11.1` to `2.10.1`.
     - `python3-chardet` - version maintained at `3.0.4`.
     - `python3-setuptools` - version maintained at `39.2.0`.
-- Upgraded to `qpylib` `2.0.4`.
+- Updated qpylib version to [2.0.4](https://github.com/IBM/qpylib/releases/tag/2.0.4).
 
 ## 2.0.6
 
@@ -211,12 +241,12 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
 ## 2.0.4
 
 - Upgraded packages to resolve security vulnerabilities.
-- Upgraded to `qpylib` `2.0.3`.
+- Updated qpylib version to [2.0.3](https://github.com/IBM/qpylib/releases/tag/2.0.3).
 
 ## 2.0.3
 
 - Upgraded packages to resolve security vulnerabilities.
-- Upgraded to `qpylib` `2.0.2`.
+- Updated qpylib version to [2.0.2](https://github.com/IBM/qpylib/releases/tag/2.0.2).
 
 ## 2.0.2
 
@@ -226,7 +256,7 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
 ## 2.0.1
 
 - Upgraded packages to resolve security vulnerabilities.
-- Upgraded to `qpylib` `2.0.1`.
+- Updated qpylib version to [2.0.1](https://github.com/IBM/qpylib/releases/tag/2.0.1).
 
 ## 2.0.0
 
