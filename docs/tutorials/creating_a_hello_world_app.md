@@ -105,6 +105,9 @@ The `areas` block contains the fields that are described in the following table:
     </tr>
 </table>
 
+> Note: For more information on required capabilities, see [this technical 
+    note](https://www.ibm.com/support/pages/node/7026595). 
+
 ## Python Endpoints
 
 The `app/views.py` file contains the following code:
