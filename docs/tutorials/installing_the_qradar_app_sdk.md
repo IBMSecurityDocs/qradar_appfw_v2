@@ -4,7 +4,7 @@ You can install the IBM® QRadar® App SDK on Windows, Linux, or MacOS operating
 
 ## Prerequsites
 
-- [Python](https://www.python.org/downloads/) 3.7 or later
+- [Python](https://www.python.org/downloads/) 3.8 or later
 
 **Note:** To install the SDK on Windows, you must have [WSL (Windows Subsystem for Linux)
 installed](https://docs.microsoft.com/en-us/windows/wsl/install-win10).

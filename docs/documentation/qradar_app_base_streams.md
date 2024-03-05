@@ -2,7 +2,7 @@
 
 ## Base image streams
 
-There are three QRadar _base image streams_ for app development.
+Currently, there are three QRadar _base image streams_ for app development.
 
 The latest releases of each stream are always based upon the same Red Hat Universal Base Image 8 Minimal (ubi8-minimal)
 image version, and differ only in their pre-installed version of Python and associated packages.
@@ -23,32 +23,30 @@ Python packages with your app to satisfy dependencies.
 
 ## Base image support
 
-Python 3.6 is now end-of-life, and many Python libraries no longer support Python 3.6 in their latest versions,
-so the v2 image will soon be deprecated.
+Python 3.6 is now end-of-life, and Python 3.8 goes end-of-life in 2024, so both the v2 and the v3 image streams
+will be deprecated in the near future.
 
-App developers are encouraged to use a v3 or v4 image, but should be aware of the following:
-
-- An app that uses a v3 base image can only be installed on a **7.4 QRadar server with version 7.4.3 FP8 or later**,
-or a **7.5 QRadar server with version 7.5.0 UP3 or later**.
-- An app that uses a v4 base image can only be installed on a **7.5 QRadar server with version 7.5.0 UP7 or later**.
+App developers are encouraged to use the v4 image, but should note that an app that uses a v4 base image
+can only be installed on a **7.5 QRadar server with version 7.5.0 UP7 or later**.
 
 In summary:
-- v2 stream: Python 3.6, all QRadar versions
-- v3 stream: Python 3.8, QRadar 7.4.3 FP8+, 7.5.0 UP3+
-- v4 stream: Python 3.11, QRadar 7.5.0 UP7+
+
+- v2 stream: Python 3.6, compatible with all QRadar versions, soon to be deprecated.
+- v3 stream: Python 3.8, compatible with QRadar 7.4.3 FP8+ and 7.5.0 UP3+, soon to be deprecated.
+- v4 stream: Python 3.11, compatible with QRadar 7.5.0 UP7+, preferred option.
 
 ## How to specify a base image version
 
-Each QRadar release ships with the most up-to-date release of each base image stream, i.e. the latest v2, v3 and v4
-releases.
+Each QRadar release ships with the most up-to-date version of each base image stream, i.e. the latest v2, v3 and v4
+versions.
 
 When you install an app, QRadar uses the `image` field value from the app's `manifest.json` to determine which base image
 version to use.
 
-For example, to specify a v3 image, supply an `image` value like this:
+For example, to specify a v4 image, supply an `image` value like this:
 
 ```json
-  "image": "qradar-app-base:3.0.0"
+  "image": "qradar-app-base:4.0.2"
 ```
 
 The available base images on the QRadar server may not correspond exactly with the version specified in

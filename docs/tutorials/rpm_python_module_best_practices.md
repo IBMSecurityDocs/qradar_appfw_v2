@@ -9,8 +9,8 @@ This tutorial covers best practices for sourcing and downloading RPMs and Python
 ## Prerequisites
 
 - pip
-- [Python](https://www.python.org/downloads/) 3.7 or later
-- QRadar App SDK version 2
+- [Python](https://www.python.org/downloads/) 3.8 or later
+- QRadar App SDK latest version
 
 ## RPM
 
