@@ -183,7 +183,7 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
 
 ## 2.1.23
 
-- Upgraded packages to resolve security vulnerabilities.
+- Upgraded packages to resolve security vulnerabilities related v2 base image.
 
 ## 2.1.22
 
