@@ -21,6 +21,11 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
     </thead>
     <tbody>
         <tr>
+            <td>4.0.7</td>
+            <td>7.5.0 UP10 IF01</td>
+            <td>2.2.1</td>
+        </tr>
+        <tr>
             <td>4.0.6</td>
             <td>7.5.0 UP8</td>
             <td>2.2.1</td>
@@ -128,6 +133,10 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
     </tbody>
 </table>
 
+## 4.0.7
+
+- Upgraded packages to resolve security vulnerabilities.
+
 ## 4.0.6
 
 - Upgraded packages to resolve security vulnerabilities.
@@ -183,7 +192,7 @@ This table maps QRadar app base image versions to the QRadar release and QRadar 
 
 ## 2.1.23
 
-- Upgraded packages to resolve security vulnerabilities related v2 base image.
+- Upgraded packages to resolve security vulnerabilities.
 
 ## 2.1.22
 
