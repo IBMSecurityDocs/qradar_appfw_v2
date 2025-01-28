@@ -85,3 +85,4 @@ They are split into two sections:
   * [QRadar app base image 4.0.2 packages](docs/documentation/qradar_app_base_image_4.0.2_packages.md)
   * [QRadar app base image 4.0.6 packages](docs/documentation/qradar_app_base_image_4.0.6_packages.md)
   * [QRadar app base image 4.0.7 packages](docs/documentation/qradar_app_base_image_4.0.7_packages.md)
+  * [QRadar app base image 4.0.8 packages](docs/documentation/qradar_app_base_image_4.0.8_packages.md)
