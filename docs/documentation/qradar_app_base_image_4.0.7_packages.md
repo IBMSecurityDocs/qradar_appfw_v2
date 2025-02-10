@@ -1,6 +1,6 @@
 # QRadar app base image 4.0.7 packages
 
-This page shows every package installed in `qradar-app-base` image version `4.0.7  `.
+This page shows every package installed in `qradar-app-base` image version `4.0.7`.
 
 ## Python packages
 
@@ -1073,6 +1073,11 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       <tr>
         <td>xz-libs</td>
         <td>5.2.4-4.el8_6</td>
+        <td>No change</td>
+      </tr>
+      <tr>
+        <td>zlib</td>
+        <td>1.2.11-25.el8</td>
         <td>No change</td>
       </tr>
       <tr>
