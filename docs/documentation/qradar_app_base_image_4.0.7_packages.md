@@ -1,6 +1,6 @@
 # QRadar app base image 4.0.7 packages
 
-This page shows every package installed in `qradar-app-base` image version `4.0.7 `.
+This page shows every package installed in `qradar-app-base` image version `4.0.7  `.
 
 ## Python packages
 
