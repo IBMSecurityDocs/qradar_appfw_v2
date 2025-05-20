@@ -33,14 +33,14 @@ As stated in the documentation there are two steps to run an application locally
    
 	```bash
 	Supplied manifest image version is 2.0.5, selecting base image 2.1.16
-	Found base image docker-release.secintel.intranet.ibm.com/gaf/qradar-app-base:2.1.16
+	Found base image icr.io/qradar-siem-release/gaf/qradar-app-base:2.1.16
 	Preparing image build directory /home/user/qradarappsdk/docker/build
 	Using /home/user/qradarappsdk/docker/build/Dockerfile
 	Creating Supervisor program entry for Flask
 	Building image [helloworldcustomtab]
 	Using user ID 501 and group ID 20
 	DOCKER BUILD LOG: START
-	Step 1/14 : FROM docker-release.secintel.intranet.ibm.com/gaf/qradar-app-base:2.1.16
+	Step 1/14 : FROM icr.io/qradar-siem-release/gaf/qradar-app-base:2.1.16
 	Step 2/14 : LABEL com.ibm.si.app.origin=SDK
 	Step 3/14 : ARG APP_USER_ID
 	Step 4/14 : ARG APP_GROUP_ID
