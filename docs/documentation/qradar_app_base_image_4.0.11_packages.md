@@ -1,17 +1,17 @@
-# QRadar app base image 4.0.7 packages
+# QRadar app base image 4.0.11 packages
 
-This page shows every package installed in `qradar-app-base` image version `4.0.7`.
+This page shows every package installed in `qradar-app-base` image version `4.0.11`.
 
 ## Python packages
 
-These are the `4.0.7` packages listed by the `pip list` command.
+These are the `4.0.11` packages listed by the `pip list` command.
 
 <table>
     <thead>
       <tr>
         <th>Package</th>
         <th>Version</th>
-        <th>Version in 4.0.6</th>
+        <th>Version in 4.0.9</th>
         <th>Package Source</th>
       </tr>
     </thead>
@@ -24,8 +24,8 @@ These are the `4.0.7` packages listed by the `pip list` command.
       </tr>
       <tr>
         <td>certifi</td>
-        <td>2024.8.30</td>
-        <td>2023.11.17</td>
+        <td>2026.1.4</td>
+        <td>2025.1.31</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -72,8 +72,8 @@ These are the `4.0.7` packages listed by the `pip list` command.
       </tr>
       <tr>
         <td>Jinja2</td>
-        <td>3.1.4</td>
-        <td>3.1.3</td>
+        <td>3.1.6</td>
+        <td>No change</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -84,8 +84,8 @@ These are the `4.0.7` packages listed by the `pip list` command.
       </tr>
       <tr>
         <td>pip</td>
-        <td>24.2</td>
-        <td>23.3.2</td>
+        <td>26.0.1</td>
+        <td>25.0.1</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -120,8 +120,8 @@ These are the `4.0.7` packages listed by the `pip list` command.
       </tr>
       <tr>
         <td>requests</td>
+        <td>2.32.5</td>
         <td>2.32.0</td>
-        <td>2.31.0</td>
         <td>PyPI</td>
       </tr>
       <tr>
@@ -144,14 +144,14 @@ These are the `4.0.7` packages listed by the `pip list` command.
       </tr>
       <tr>
         <td>urllib3</td>
+        <td>2.6.3</td>
         <td>2.2.2</td>
-        <td>2.1.0</td>
         <td>PyPI</td>
       </tr>
       <tr>
         <td>Werkzeug</td>
-        <td>3.0.3</td>
-        <td>3.0.1</td>
+        <td>3.0.6</td>
+        <td>No change</td>
         <td>PyPI</td>
       </tr>
     </tbody>
@@ -159,26 +159,26 @@ These are the `4.0.7` packages listed by the `pip list` command.
 
 ## RPM packages
 
-These are the `4.0.7` packages listed by the `rpm -qa` command.
+These are the `4.0.11` packages listed by the `rpm -qa` command.
 
 <table>
     <thead>
       <tr>
         <th>Package</th>
         <th>Version</th>
-        <th>Version in 4.0.6</th>
+        <th>Version in 4.0.9</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>acl</td>
         <td>2.2.53-3.el8</td>
-        <td>2.2.53-1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>audit-libs</td>
+        <td>3.1.2-1.el8_10.1</td>
         <td>3.1.2-1.el8</td>
-        <td>3.0.7-5.el8</td>
       </tr>
       <tr>
         <td>basesystem</td>
@@ -187,8 +187,8 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>bash</td>
+        <td>4.4.20-6.el8_10</td>
         <td>4.4.20-5.el8</td>
-        <td>4.4.20-4.el8_6</td>
       </tr>
       <tr>
         <td>brotli</td>
@@ -197,13 +197,13 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>bzip2-libs</td>
-        <td>1.0.6-26.el8</td>
+        <td>1.0.6-28.el8_10</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>ca-certificates</td>
-        <td>2023.2.60_v7.0.306-80.0.el8_8</td>
-        <td>No change</td>
+        <td>2025.2.80_v9.0.304-80.2.el8_10</td>
+        <td>2024.2.69_v8.0.303-80.0.el8_10</td>
       </tr>
       <tr>
         <td>chkconfig</td>
@@ -212,8 +212,8 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>coreutils-single</td>
+        <td>8.30-16.el8_10</td>
         <td>8.30-15.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>cpio</td>
@@ -247,8 +247,8 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>curl</td>
-        <td>7.61.1-34.el8_10.2</td>
-        <td>7.61.1-33.el8</td>
+        <td>7.61.1-34.el8_10.9</td>
+        <td>7.61.1-34.el8_10.3</td>
       </tr>
       <tr>
         <td>cyrus-sasl-lib</td>
@@ -257,38 +257,38 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>dbus</td>
+        <td>1.12.8-27.el8_10</td>
         <td>1.12.8-26.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-common</td>
+        <td>1.12.8-27.el8_10</td>
         <td>1.12.8-26.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-daemon</td>
+        <td>1.12.8-27.el8_10</td>
         <td>1.12.8-26.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-libs</td>
+        <td>1.12.8-27.el8_10</td>
         <td>1.12.8-26.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>dbus-tools</td>
+        <td>1.12.8-27.el8_10</td>
         <td>1.12.8-26.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>device-mapper</td>
-        <td>1.02.181-14.el8</td>
-        <td>1.02.181-13.el8_9</td>
+        <td>1.02.181-15.el8_10.3</td>
+        <td>1.02.181-15.el8_10</td>
       </tr>
       <tr>
         <td>device-mapper-libs</td>
-        <td>1.02.181-14.el8</td>
-        <td>1.02.181-13.el8_9</td>
+        <td>1.02.181-15.el8_10.3</td>
+        <td>1.02.181-15.el8_10</td>
       </tr>
       <tr>
         <td>diffutils</td>
@@ -297,38 +297,38 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>dracut</td>
+        <td>049-239.git20251127.el8_10</td>
         <td>049-233.git20240115.el8</td>
-        <td>049-228.git20230802.el8</td>
       </tr>
       <tr>
         <td>elfutils-debuginfod-client</td>
         <td>0.190-2.el8</td>
-        <td>0.189-3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>elfutils-default-yama-scope</td>
         <td>0.190-2.el8</td>
-        <td>0.189-3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>elfutils-libelf</td>
         <td>0.190-2.el8</td>
-        <td>0.189-3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>elfutils-libs</td>
         <td>0.190-2.el8</td>
-        <td>0.189-3.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>expat</td>
-        <td>2.2.5-13.el8_10</td>
-        <td>2.2.5-11.el8</td>
+        <td>2.5.0-1.el8_10</td>
+        <td>2.2.5-16.el8_10</td>
       </tr>
       <tr>
         <td>file-libs</td>
+        <td>5.33-27.el8_10</td>
         <td>5.33-26.el8</td>
-        <td>5.33-25.el8</td>
       </tr>
       <tr>
         <td>filesystem</td>
@@ -337,8 +337,8 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>findutils</td>
-        <td>4.6.0-22.el8</td>
-        <td>4.6.0-21.el8</td>
+        <td>4.6.0-24.el8_10</td>
+        <td>4.6.0-23.el8_10</td>
       </tr>
       <tr>
         <td>gawk</td>
@@ -357,53 +357,48 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>glib2</td>
-        <td>2.56.4-162.el8</td>
-        <td>2.56.4-161.el8</td>
+        <td>2.56.4-168.el8_10</td>
+        <td>2.56.4-165.el8_10</td>
       </tr>
       <tr>
         <td>glibc</td>
-        <td>2.28-251.el8_10.4</td>
-        <td>2.28-236.el8.7</td>
+        <td>2.28-251.el8_10.27</td>
+        <td>2.28-251.el8_10.14</td>
       </tr>
       <tr>
         <td>glibc-common</td>
-        <td>2.28-251.el8_10.4</td>
-        <td>2.28-236.el8.7</td>
-      </tr>
-      <tr>
-        <td>glibc-gconv-extra</td>
-        <td>2.28-251.el8_10.4</td>
-        <td>Newly added</td>
+        <td>2.28-251.el8_10.27</td>
+        <td>2.28-251.el8_10.14</td>
       </tr>
       <tr>
         <td>glibc-langpack-en</td>
-        <td>2.28-251.el8_10.4</td>
-        <td>2.28-236.el8.7</td>
+        <td>2.28-251.el8_10.27</td>
+        <td>2.28-251.el8_10.14</td>
       </tr>
       <tr>
         <td>glibc-locale-source</td>
-        <td>2.28-251.el8_10.4</td>
-        <td>2.28-236.el8.7</td>
+        <td>2.28-251.el8_10.27</td>
+        <td>2.28-251.el8_10.14</td>
       </tr>
       <tr>
         <td>glibc-minimal-langpack</td>
-        <td>2.28-251.el8_10.4</td>
-        <td>2.28-236.el8.7</td>
+        <td>2.28-251.el8_10.27</td>
+        <td>2.28-251.el8_10.14</td>
       </tr>
       <tr>
         <td>gmp</td>
         <td>6.1.2-11.el8</td>
-        <td>6.1.2-10.el8</td>
-      </tr>
-      <tr>
-        <td>gnupg2</td>
-        <td>2.2.20-3.el8_6</td>
         <td>No change</td>
       </tr>
       <tr>
+        <td>gnupg2</td>
+        <td>2.2.20-4.el8_10</td>
+        <td>2.2.20-3.el8_6</td>
+      </tr>
+      <tr>
         <td>gnutls</td>
+        <td>3.6.16-8.el8_10.4</td>
         <td>3.6.16-8.el8_9.3</td>
-        <td>3.6.16-8.el8_9</td>
       </tr>
       <tr>
         <td>gobject-introspection</td>
@@ -423,7 +418,7 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       <tr>
         <td>gpgme</td>
         <td>1.13.1-12.el8</td>
-        <td>1.13.1-11.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>grep</td>
@@ -478,22 +473,22 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       <tr>
         <td>kmod</td>
         <td>25-20.el8</td>
-        <td>25-19.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>kmod-libs</td>
         <td>25-20.el8</td>
-        <td>25-19.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>kpartx</td>
+        <td>0.8.4-42.el8_10</td>
         <td>0.8.4-41.el8</td>
-        <td>0.8.4-39.el8</td>
       </tr>
       <tr>
         <td>krb5-libs</td>
-        <td>1.18.2-29.el8_10</td>
-        <td>1.18.2-26.el8_9</td>
+        <td>1.18.2-32.el8_10</td>
+        <td>1.18.2-30.el8_10</td>
       </tr>
       <tr>
         <td>langpacks-en</td>
@@ -503,12 +498,12 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       <tr>
         <td>libacl</td>
         <td>2.2.53-3.el8</td>
-        <td>2.2.53-1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libarchive</td>
+        <td>3.3.3-6.el8_10</td>
         <td>3.3.3-5.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libassuan</td>
@@ -522,8 +517,8 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libblkid</td>
+        <td>2.32.1-48.el8_10</td>
         <td>2.32.1-46.el8</td>
-        <td>2.32.1-43.el8</td>
       </tr>
       <tr>
         <td>libcap</td>
@@ -537,13 +532,13 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libcom_err</td>
+        <td>1.45.6-7.el8_10</td>
         <td>1.45.6-5.el8</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libcurl</td>
-        <td>7.61.1-34.el8_10.2</td>
-        <td>7.61.1-33.el8</td>
+        <td>7.61.1-34.el8_10.9</td>
+        <td>7.61.1-34.el8_10.3</td>
       </tr>
       <tr>
         <td>libdb</td>
@@ -557,13 +552,13 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libdnf</td>
-        <td>0.63.0-20.el8_10</td>
-        <td>0.63.0-17.el8_9</td>
+        <td>0.63.0-21.el8_10</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libfdisk</td>
+        <td>2.32.1-48.el8_10</td>
         <td>2.32.1-46.el8</td>
-        <td>2.32.1-43.el8</td>
       </tr>
       <tr>
         <td>libffi</td>
@@ -572,8 +567,8 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libgcc</td>
-        <td>8.5.0-22.el8_10</td>
-        <td>8.5.0-20.el8</td>
+        <td>8.5.0-28.el8_10</td>
+        <td>8.5.0-24.el8_10</td>
       </tr>
       <tr>
         <td>libgcrypt</td>
@@ -593,12 +588,12 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       <tr>
         <td>libkcapi</td>
         <td>1.4.0-2.el8</td>
-        <td>1.2.0-2.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libkcapi-hmaccalc</td>
         <td>1.4.0-2.el8</td>
-        <td>1.2.0-2.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libksba</td>
@@ -612,13 +607,13 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libmount</td>
+        <td>2.32.1-48.el8_10</td>
         <td>2.32.1-46.el8</td>
-        <td>2.32.1-43.el8</td>
       </tr>
       <tr>
         <td>libnghttp2</td>
         <td>1.33.0-6.el8_10.1</td>
-        <td>1.33.0-5.el8_9</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libnsl2</td>
@@ -643,7 +638,7 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       <tr>
         <td>librepo</td>
         <td>1.14.2-5.el8</td>
-        <td>1.14.2-4.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>librhsm</td>
@@ -657,13 +652,13 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libselinux</td>
-        <td>2.9-8.el8</td>
+        <td>2.9-10.el8_10</td>
         <td>No change</td>
       </tr>
       <tr>
         <td>libsemanage</td>
-        <td>2.9-9.el8_6</td>
-        <td>No change</td>
+        <td>2.9-12.el8_10</td>
+        <td>2.9-11.el8_10</td>
       </tr>
       <tr>
         <td>libsepol</td>
@@ -677,8 +672,8 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libsmartcols</td>
+        <td>2.32.1-48.el8_10</td>
         <td>2.32.1-46.el8</td>
-        <td>2.32.1-43.el8</td>
       </tr>
       <tr>
         <td>libsolv</td>
@@ -687,28 +682,28 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libssh</td>
+        <td>0.9.6-16.el8_10</td>
         <td>0.9.6-14.el8</td>
-        <td>0.9.6-10.el8_8</td>
       </tr>
       <tr>
         <td>libssh-config</td>
+        <td>0.9.6-16.el8_10</td>
         <td>0.9.6-14.el8</td>
-        <td>0.9.6-10.el8_8</td>
       </tr>
       <tr>
         <td>libstdc++</td>
-        <td>8.5.0-22.el8_10</td>
-        <td>8.5.0-20.el8</td>
+        <td>8.5.0-28.el8_10</td>
+        <td>8.5.0-24.el8_10</td>
       </tr>
       <tr>
         <td>libtasn1</td>
+        <td>4.13-5.el8_10</td>
         <td>4.13-4.el8_7</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>libtirpc</td>
         <td>1.1.4-12.el8_10</td>
-        <td>1.1.4-8.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>libunistring</td>
@@ -722,7 +717,7 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libuser</td>
-        <td>0.62-25.el8</td>
+        <td>0.62-26.el8_10</td>
         <td>No change</td>
       </tr>
       <tr>
@@ -732,8 +727,8 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libuuid</td>
+        <td>2.32.1-48.el8_10</td>
         <td>2.32.1-46.el8</td>
-        <td>2.32.1-43.el8</td>
       </tr>
       <tr>
         <td>libverto</td>
@@ -752,8 +747,8 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>libxml2</td>
-        <td>2.9.7-18.el8_10.1</td>
-        <td>2.9.7-18.el8_9</td>
+        <td>2.9.7-21.el8_10.3</td>
+        <td>2.9.7-19.el8_10</td>
       </tr>
       <tr>
         <td>libyaml</td>
@@ -772,8 +767,8 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>lz4-libs</td>
+        <td>1.8.3-5.el8_10</td>
         <td>1.8.3-3.el8_4</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>microdnf</td>
@@ -812,33 +807,33 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>openldap</td>
-        <td>2.4.46-19.el8_10</td>
-        <td>2.4.46-18.el8</td>
+        <td>2.4.46-21.el8_10</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>openssl</td>
-        <td>1.1.1k-12.el8_9</td>
-        <td>No change</td>
+        <td>1.1.1k-14.el8_10</td>
+        <td>1.1.1k-14.el8_6</td>
       </tr>
       <tr>
         <td>openssl-libs</td>
-        <td>1.1.1k-12.el8_9</td>
-        <td>No change</td>
+        <td>1.1.1k-14.el8_10</td>
+        <td>1.1.1k-14.el8_6</td>
       </tr>
       <tr>
         <td>p11-kit</td>
         <td>0.23.22-2.el8</td>
-        <td>0.23.22-1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>p11-kit-trust</td>
         <td>0.23.22-2.el8</td>
-        <td>0.23.22-1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>pam</td>
-        <td>1.3.1-34.el8_10</td>
-        <td>1.3.1-27.el8</td>
+        <td>1.3.1-39.el8_10</td>
+        <td>1.3.1-36.el8_10</td>
       </tr>
       <tr>
         <td>passwd</td>
@@ -862,18 +857,18 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>platform-python</td>
-        <td>3.6.8-62.el8_10</td>
-        <td>3.6.8-56.el8_9.2</td>
+        <td>3.6.8-73.el8_10</td>
+        <td>3.6.8-69.el8_10</td>
       </tr>
       <tr>
         <td>platform-python-pip</td>
         <td>9.0.3-24.el8</td>
-        <td>9.0.3-23.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>platform-python-setuptools</td>
+        <td>39.2.0-9.el8_10</td>
         <td>39.2.0-8.el8_10</td>
-        <td>39.2.0-7.el8</td>
       </tr>
       <tr>
         <td>popt</td>
@@ -892,23 +887,23 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>python3-libs</td>
-        <td>3.6.8-62.el8_10</td>
-        <td>3.6.8-56.el8_9.2</td>
+        <td>3.6.8-73.el8_10</td>
+        <td>3.6.8-69.el8_10</td>
       </tr>
       <tr>
         <td>python3-pip-wheel</td>
         <td>9.0.3-24.el8</td>
-        <td>9.0.3-23.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3-setuptools-wheel</td>
+        <td>39.2.0-9.el8_10</td>
         <td>39.2.0-8.el8_10</td>
-        <td>39.2.0-7.el8</td>
       </tr>
       <tr>
         <td>python3.11</td>
-        <td>3.11.9-2.el8_10</td>
-        <td>3.11.5-1.el8_9</td>
+        <td>3.11.13-4.el8_10</td>
+        <td>3.11.11-1.el8_10</td>
       </tr>
       <tr>
         <td>python3.11-cffi</td>
@@ -918,7 +913,7 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       <tr>
         <td>python3.11-cryptography</td>
         <td>37.0.2-6.el8</td>
-        <td>37.0.2-5.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3.11-idna</td>
@@ -927,18 +922,18 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>python3.11-libs</td>
-        <td>3.11.9-2.el8_10</td>
-        <td>3.11.5-1.el8_9</td>
+        <td>3.11.13-4.el8_10</td>
+        <td>3.11.11-1.el8_10</td>
       </tr>
       <tr>
         <td>python3.11-pip</td>
         <td>22.3.1-5.el8</td>
-        <td>22.3.1-4.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3.11-pip-wheel</td>
         <td>22.3.1-5.el8</td>
-        <td>22.3.1-4.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>python3.11-ply</td>
@@ -957,13 +952,13 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>python3.11-setuptools</td>
+        <td>65.5.1-4.el8_10</td>
         <td>65.5.1-3.el8_10</td>
-        <td>65.5.1-2.el8</td>
       </tr>
       <tr>
         <td>python3.11-setuptools-wheel</td>
+        <td>65.5.1-4.el8_10</td>
         <td>65.5.1-3.el8_10</td>
-        <td>65.5.1-2.el8</td>
       </tr>
       <tr>
         <td>python3.11-six</td>
@@ -978,7 +973,7 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       <tr>
         <td>redhat-release</td>
         <td>8.10-0.3.el8</td>
-        <td>8.9-0.1.el8</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>rootfiles</td>
@@ -987,13 +982,13 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>rpm</td>
-        <td>4.14.3-31.el8</td>
-        <td>4.14.3-26.el8</td>
+        <td>4.14.3-32.el8_10</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>rpm-libs</td>
-        <td>4.14.3-31.el8</td>
-        <td>4.14.3-26.el8</td>
+        <td>4.14.3-32.el8_10</td>
+        <td>No change</td>
       </tr>
       <tr>
         <td>sed</td>
@@ -1007,58 +1002,58 @@ These are the `4.0.7` packages listed by the `rpm -qa` command.
       </tr>
       <tr>
         <td>shadow-utils</td>
+        <td>4.6-23.el8_10</td>
         <td>4.6-22.el8</td>
-        <td>4.6-19.el8</td>
       </tr>
       <tr>
         <td>sqlite</td>
+        <td>3.26.0-20.el8_10</td>
         <td>3.26.0-19.el8_9</td>
-        <td>3.26.0-18.el8_8</td>
       </tr>
       <tr>
         <td>sqlite-libs</td>
+        <td>3.26.0-20.el8_10</td>
         <td>3.26.0-19.el8_9</td>
-        <td>3.26.0-18.el8_8</td>
       </tr>
       <tr>
         <td>sudo</td>
+        <td>1.9.5p2-1.el8_10.3</td>
         <td>1.9.5p2-1.el8_9</td>
-        <td>1.8.29-10.el8</td>
       </tr>
       <tr>
         <td>systemd</td>
-        <td>239-82.el8_10.1</td>
-        <td>239-78.el8</td>
+        <td>239-82.el8_10.13</td>
+        <td>239-82.el8_10.4</td>
       </tr>
       <tr>
         <td>systemd-libs</td>
-        <td>239-82.el8_10.1</td>
-        <td>239-78.el8</td>
+        <td>239-82.el8_10.13</td>
+        <td>239-82.el8_10.4</td>
       </tr>
       <tr>
         <td>systemd-pam</td>
-        <td>239-82.el8_10.1</td>
-        <td>239-78.el8</td>
+        <td>239-82.el8_10.13</td>
+        <td>239-82.el8_10.4</td>
       </tr>
       <tr>
         <td>systemd-udev</td>
-        <td>239-82.el8_10.1</td>
-        <td>239-78.el8</td>
+        <td>239-82.el8_10.13</td>
+        <td>239-82.el8_10.4</td>
       </tr>
       <tr>
         <td>tzdata</td>
-        <td>2024a-1.el8</td>
-        <td>2023d-1.el8</td>
+        <td>2025c-1.el8</td>
+        <td>2025a-1.el8</td>
       </tr>
       <tr>
         <td>util-linux</td>
+        <td>2.32.1-48.el8_10</td>
         <td>2.32.1-46.el8</td>
-        <td>2.32.1-43.el8</td>
       </tr>
       <tr>
         <td>vim-minimal</td>
+        <td>8.0.1763-21.el8_10</td>
         <td>8.0.1763-19.el8_6.4</td>
-        <td>No change</td>
       </tr>
       <tr>
         <td>xkeyboard-config</td>
