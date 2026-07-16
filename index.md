@@ -64,6 +64,7 @@ They are split into two sections:
   * [QRadar app base image changelog](docs/documentation/qradar_app_base_image_changelog.md)
   * [QRadar app base image streams](docs/documentation/qradar_app_base_streams.md)
   * [Inherit user-selected global theme for applications](docs/tutorials/inherit_user_selected_global_theme_for_applications.md)
+  * [Application Specific Role Based Access Control](docs/tutorials/application_specific_role_based_access_control.md)
   * [Removal of "V1+ (CentOS with Python 2)" option from Minimum Permitted App Base Image Stream](docs/tutorials/removal_v1_from_system_settings.md)
   * [QRadar app base image 2.0.4 packages](docs/documentation/qradar_app_base_image_2.0.4_packages.md)
   * [QRadar app base image 2.0.5 packages](docs/documentation/qradar_app_base_image_2.0.5_packages.md)
@@ -90,3 +91,4 @@ They are split into two sections:
   * [QRadar app base image 4.0.8 packages](docs/documentation/qradar_app_base_image_4.0.8_packages.md)
   * [QRadar app base image 4.0.9 packages](docs/documentation/qradar_app_base_image_4.0.9_packages.md)
   * [QRadar app base image 4.0.11 packages](docs/documentation/qradar_app_base_image_4.0.11_packages.md)
+  * [QRadar app base image 4.0.12 packages](docs/documentation/qradar_app_base_image_4.0.12_packages.md)
